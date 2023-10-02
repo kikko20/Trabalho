@@ -5,32 +5,35 @@ using UnityEngine;
 
 public class Inimigo1 : MonoBehaviour
 {
-    public int Speed;
+    public float speed;
 
     private Rigidbody2D rig;
-    private bool movingRight = true;
+
+    private Animator anime;
+
+    public Transform leftcol;
+    public Transform rightcol;
+
+    private bool colliding;
 
     // Start is called before the first frame update
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
-
-        // Inicia o movimento do inimigo em uma nova thread
-        InvokeRepeating("Move", 0f, 5f);
+        anime = GetComponent<Animator>();
+        
     }
 
-    private void Move()
+    // Update is called once per frame
+    void Update()
     {
-        if (movingRight)
+        rig.velocity = new Vector2(speed, rig.velocity.y);
+        colliding = Physics.Linecast(rightcol.position, leftcol.position);
+        
+        if (colliding)
         {
-            rig.velocity = new Vector2(Speed, rig.velocity.y);
+            speed = -speed;
         }
-        else
-        {
-            rig.velocity = new Vector2(-Speed, rig.velocity.y);
-        }
-
-        movingRight = !movingRight;
     }
 }
 
