@@ -3,12 +3,11 @@ using UnityEngine;
 public class AtirarBossScript : MonoBehaviour
 {
     public GameObject laiserPrefab;
-    public Transform laiserSpawnPoint;
+    public Transform pontoDeSpawnLaiser; // Objeto vazio que representa o ponto de spawn
     public float tempoEntreTiros = 2.0f; // Tempo em segundos entre cada tiro
     private float tempoUltimoTiro = 0.0f;
-
-    public int vidaInicial = 10; // Defina a vida inicial do boss aqui
     private BossScript bossScript; // Referência ao script principal do boss
+    public int vidaInicial = 10; // Variável para a vida inicial do boss
 
     void Start()
     {
@@ -28,8 +27,8 @@ public class AtirarBossScript : MonoBehaviour
     {
         if (Time.time - tempoUltimoTiro >= tempoEntreTiros)
         {
-            // Instanciar o Prefab do projétil do "laiser" no ponto de spawn
-            Instantiate(laiserPrefab, laiserSpawnPoint.position, Quaternion.identity);
+            // Instanciar o Prefab do projétil do "laiser" no ponto de spawn (objeto vazio)
+            Instantiate(laiserPrefab, pontoDeSpawnLaiser.position, Quaternion.identity);
             tempoUltimoTiro = Time.time;
         }
     }
