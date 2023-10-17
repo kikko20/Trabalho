@@ -1,0 +1,4072 @@
+fileFormatVersion: 2
+guid: 8ddeb07e2f8feee40817d508fb9c22f9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boss.tatu_0
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 536
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be944f8ffb7d13a4f8c4fe097b58ecde
+      internalID: -860862044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 547
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7b7a6ae6ab8cf4a8a4bb71eaad8671
+      internalID: 1901326538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_2
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 548
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1a73fe5cf0e354c8963b5f5da2ec82
+      internalID: -1591671981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_3
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 548
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16186fd02e275fc47a9407ce92eab956
+      internalID: -1159816131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_4
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 546
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49df4a073d1d9f4a8a35dc61a348c15
+      internalID: -878251462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_5
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 548
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce93046129cbd648ab147496280451e
+      internalID: -2006943872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_6
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 548
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a17880a9698313419ca711527b28765
+      internalID: -551296194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_7
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 545
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f704220aa0cfb459543339c7b8fc41
+      internalID: 1674146761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_8
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 545
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c63a6e2ff134c44b39f0848c84227f
+      internalID: -1224508150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_9
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 548
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17628a50c6350847a1bdb64d91a63d9
+      internalID: -1253190648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_10
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 548
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8666854e9e918e4eb4d4f5876f3114c
+      internalID: 152881558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_11
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 546
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3959cc84bbd49c49a7baf758f2f8636
+      internalID: 1248558211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_12
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 548
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b097941037e9ef4f8575bf7c542587b
+      internalID: -1063113544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_13
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 548
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c882d8777e2ff544b8deb79971caa0f9
+      internalID: -733030349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_14
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 547
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc487b15817ec644bb4baac0b6b953b2
+      internalID: 842014501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_15
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 536
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824408410da3ba94d93e8a135d82a393
+      internalID: 1025688948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_16
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 485
+        width: 58
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7ddc6b3b437c94f9b8744f024e110c
+      internalID: 72887005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_17
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 486
+        width: 53
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d4846a07589714ba5f772c7ec033e2
+      internalID: -1771337005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_18
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 487
+        width: 55
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca191c5a7ace1d43ba899825df9728d
+      internalID: -420620599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_19
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 486
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f90677e9328401439beed958e4eb6fa
+      internalID: 863382982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_20
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 486
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3454ebaac0b8d4a9b5fead4536083f
+      internalID: 733691783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_21
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 487
+        width: 55
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a785d87b34fc84ead1bb8a4d04ac42
+      internalID: -1305656091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_22
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 486
+        width: 53
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc01b368533d0364cb1253c2421ab50f
+      internalID: 740028532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_23
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 485
+        width: 58
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634d740b9bf7e764f808708724505828
+      internalID: 237971718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_24
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 437
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc1d451af0f3c1148b8bee954f0b4b24
+      internalID: 684056556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_25
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 437
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb26267f321712d4abe287177cb069cb
+      internalID: 724671141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_26
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 438
+        width: 52
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939d7be0fc4f687429bc0c53c4aeb3ac
+      internalID: -602415300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_27
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 438
+        width: 52
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ec08d4393601b4588ea91196954325
+      internalID: -453708921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_28
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 438
+        width: 52
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f48411830c49b448a63d27f99929aad
+      internalID: 320734437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_29
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 438
+        width: 52
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ab793927d3de84baf34b059746c77b
+      internalID: 415214325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_30
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 437
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820465a18cb132f4295a266744b5efd0
+      internalID: 786692462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_31
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 437
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e1e1870b4b7d4459c3496ba20667ec
+      internalID: 888017292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_32
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 383
+        width: 52
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4d306dbe0154e4cb1070020fd25aae
+      internalID: -672066517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_33
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 384
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7e8a56655ad384fb91720f69c3a131
+      internalID: 1755879876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_34
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 385
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f73fc30e68f154c80e6e0c76f9dafd
+      internalID: -5633194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_35
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 386
+        width: 57
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4b695def61f4c4f947d71cadc12bca
+      internalID: 46860724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_36
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 386
+        width: 57
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0970cbc2713f16429fe4c9adfe6a7eb
+      internalID: 1110894046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_37
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 385
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c144fc8dae7f994a94778b8c8414bc8
+      internalID: -1057448429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_38
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 384
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7536ecd1ce71a7241868ac0c9912ca1b
+      internalID: -1707164661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_39
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 383
+        width: 52
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0baae46bdb6b9ab44b5b0b997e783658
+      internalID: -1231070370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_40
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 324
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b09d39427846f48b3e398aaeb0bcb9
+      internalID: 1801889543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 323
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22d9b5e604164f4e958789b473d2bcf
+      internalID: -2131007731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_42
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 325
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db85123158e524b40869e4114c39ac90
+      internalID: -181170504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_43
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 332
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9284bad4e135d249b108a3d4d436e91
+      internalID: 402064329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_44
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 332
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1ce848b2bb1ab4ba66e30f90f46d9b
+      internalID: 1443145062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_45
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 325
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf1c8528e8bf354a8d5617325b3df73
+      internalID: 755026935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_46
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 323
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4c126603e1bce498122a0d50947c2b
+      internalID: -1227817492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_47
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 324
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f7added505406498bdf040aa0f4e2a
+      internalID: -1171196275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_48
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 268
+        width: 59
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd844194cd35054c95797093d32afe0
+      internalID: 505905847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_49
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 258
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b43904db1f66b5498945deb9f561872
+      internalID: -1226657781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_50
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 256
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b188ebccd1b5a446ac71544598b0c11
+      internalID: 1567272128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_51
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 271
+        width: 58
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04c0dc89efec1d4f8f6808f2cf7ffb4
+      internalID: 2087761903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_52
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 271
+        width: 58
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffe4a66e3ecb1245826ddce386ca7ec
+      internalID: 567933971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_53
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 256
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a4525f162d4cf4b82df808528ecb67
+      internalID: -288849331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_54
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 258
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c232d948812ab834d8a6caff89dfe3d5
+      internalID: 487196061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_55
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 268
+        width: 59
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1daf4e45dc923c543acca8e4274046fd
+      internalID: -261828507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_56
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 204
+        width: 49
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caac0739e51b685468d721b530c3d642
+      internalID: 1787360463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_57
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 204
+        width: 51
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c46ea566d39e24f986c9466f59fe7c
+      internalID: 1967246036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_58
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 204
+        width: 51
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb0276fa5fea5847b111b1fedad013a
+      internalID: 1383663849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_59
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 204
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbbf21abbc8bb9f479ef4099f706f8a9
+      internalID: -553390744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_60
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 204
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 925e8493ee5efc347a6d70e679a0a977
+      internalID: 1666887855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_61
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 204
+        width: 51
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00eafa3f396fd8b439e680ab17663286
+      internalID: -625720731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_62
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 204
+        width: 51
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a1f1438ef1a55448ab908fe4e2ae2c
+      internalID: -2061001086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_63
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 204
+        width: 49
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb29648555ed2448b0795ca71a4ae58
+      internalID: 2074502893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_64
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 149
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471c6ed6469e63b43bddb58042c4b860
+      internalID: 1363611955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_65
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 147
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa19790d003f8b442b8183d32242e56e
+      internalID: 1439519251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_66
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 148
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ff3d2d9560556498d3bd6f168ffecd
+      internalID: -773273821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_67
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 156
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc7674807b09a54e9fc761f2c83b470
+      internalID: -229839320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_68
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 156
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3682668c8e25a145a6d7244c2520b1c
+      internalID: 1537864525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_69
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 148
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a8023be354a394791ca6da0b2904fd
+      internalID: -855184801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_70
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 147
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37acb61f1c7599246888becaf70a74c0
+      internalID: 643694663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_71
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 149
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6a2865a7a4b00408825638240a9d39
+      internalID: -446056061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_72
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 110
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0b9735d0f206944abdcba168b53936
+      internalID: 268428392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_73
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 110
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e244fbbef13aa084cb2a5be0910942e5
+      internalID: 908817260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_74
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 110
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a22c5d64ebe8646a7b7307a3f4dc7a
+      internalID: 332590175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_75
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 111
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c65fa925cff5f4eb2b09fec6e02dfb
+      internalID: -1543124425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_76
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 111
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d4b897b63ea244dabee061d33f8f6c
+      internalID: 1386491199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_77
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 114
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363cae11237fa7f4bb84714f1d0a0b32
+      internalID: -468885933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_78
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 114
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c03a163b4ee97478adf17465af467f
+      internalID: -2071111657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_79
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 111
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bda7bf38a0b6e542b37a5c9149b6b02
+      internalID: -439479952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_80
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 111
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34294ceb7a58724684c1cce5612676a
+      internalID: -233723981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_81
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 110
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd742daefa5fe84d9c7292a55a51a18
+      internalID: 1111610309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_82
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 110
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab2e1b89f828634e9d296140d2bad85
+      internalID: -1775176258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_83
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 110
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5f887a5fbcc0244ae78125c94d17d3
+      internalID: -127040461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_84
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 67
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eae7739ee403de469ea4c8b95c4308e
+      internalID: -1533783870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_85
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 70
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125fb71bf79d5a842bdb2f2e6c15ff64
+      internalID: 1192680830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_86
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 69
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37fa7b7d2a286b64890fdb940d9df4cc
+      internalID: 1760876805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_87
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 65
+        width: 49
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b61931bb8ed6f04d849e284c38d4492
+      internalID: -178310066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_88
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 65
+        width: 49
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd753ae329326cd49a7b8ed47a2d29f3
+      internalID: -781063641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_89
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 69
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf493b890c77e9343a712f25c6e100b1
+      internalID: 591654652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_90
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 70
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92dcf2c0d613a0346943528fc8ef475f
+      internalID: -477254598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_91
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 67
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d5c5ac1060dea4ba7edbc2fa378163
+      internalID: 1532316006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_92
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 9
+        width: 59
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e40ec14318c854bb8a7fe1c2a24968
+      internalID: -1458898638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_93
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 9
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498ef2671f9e361468e1a4e8e595cd09
+      internalID: -520973483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_94
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 7
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4da8822c376e34aadaacfb625b3a49
+      internalID: -2115552640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_95
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278aeba269d9fe44a8998b7bd49c4de5
+      internalID: 1326281123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_96
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 10
+        width: 51
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32dc66e3b60e9047beae332256bf126
+      internalID: -70911392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_97
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 10
+        width: 51
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f965fc356fc3ab4da3837e28d3c4972
+      internalID: -1324283869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_98
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d761812b3e71c544a541bbc1a699bf5
+      internalID: 877311919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_99
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 7
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c065db31ac144bc4d9362b9a7b465d02
+      internalID: 1314881488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_100
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 9
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb46d7da693829428bf6844c529c701
+      internalID: 692443075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss.tatu_101
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 9
+        width: 59
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2c6de91429c4d44ade2d1d6bcbaf03
+      internalID: -496866287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -107, y: -229.5}
+      - {x: -113, y: -238.5}
+      - {x: -113, y: -278.5}
+      - {x: -107, y: -289.5}
+      - {x: -82, y: -289.5}
+      - {x: -67, y: -265.5}
+      - {x: -67, y: -234.5}
+      - {x: -74, y: -229.5}
+    - - {x: 69, y: -229.5}
+      - {x: 67, y: -230.5}
+      - {x: 67, y: -266.5}
+      - {x: 76, y: -289.5}
+      - {x: 105, y: -289.5}
+      - {x: 113, y: -267.5}
+      - {x: 113, y: -233.5}
+      - {x: 109, y: -229.5}
+    - - {x: -158, y: -228.5}
+      - {x: -161, y: -239.5}
+      - {x: -161, y: -275.5}
+      - {x: -153, y: -284.5}
+      - {x: -130, y: -284.5}
+      - {x: -125, y: -268.5}
+      - {x: -125, y: -232.5}
+      - {x: -133, y: -228.5}
+    - - {x: 130, y: -228.5}
+      - {x: 125, y: -230.5}
+      - {x: 125, y: -268.5}
+      - {x: 131, y: -284.5}
+      - {x: 153, y: -284.5}
+      - {x: 161, y: -273.5}
+      - {x: 161, y: -241.5}
+      - {x: 158, y: -228.5}
+    - - {x: -290, y: -231.5}
+      - {x: -301, y: -240.5}
+      - {x: -301, y: -268.5}
+      - {x: -290, y: -282.5}
+      - {x: -279, y: -282.5}
+      - {x: -279, y: -281.5}
+      - {x: -275, y: -276.5}
+      - {x: -266, y: -282.5}
+      - {x: -240, y: -282.5}
+      - {x: -239, y: -281.5}
+      - {x: -239, y: -244.5}
+      - {x: -246, y: -231.5}
+    - - {x: -194, y: -256.5}
+      - {x: -194, y: -246.5}
+      - {x: -194, y: -248.5}
+      - {x: -191, y: -253.5}
+      - {x: -179, y: -249.5}
+      - {x: -181, y: -231.5}
+      - {x: -232, y: -231.5}
+      - {x: -235, y: -232.5}
+      - {x: -235, y: -274.5}
+      - {x: -224, y: -282.5}
+      - {x: -179, y: -282.5}
+      - {x: -175, y: -277.5}
+      - {x: -175, y: -267.5}
+      - {x: -176, y: -265.5}
+    - - {x: 183, y: -231.5}
+      - {x: 175, y: -259.5}
+      - {x: 175, y: -275.5}
+      - {x: 183, y: -282.5}
+      - {x: 231, y: -282.5}
+      - {x: 235, y: -264.5}
+      - {x: 235, y: -239.5}
+      - {x: 232, y: -231.5}
+    - - {x: 252, y: -231.5}
+      - {x: 239, y: -238.5}
+      - {x: 239, y: -282.5}
+      - {x: 291, y: -282.5}
+      - {x: 301, y: -279.5}
+      - {x: 301, y: -236.5}
+      - {x: 294, y: -231.5}
+    - - {x: -53, y: -233.5}
+      - {x: -54, y: -236.5}
+      - {x: -54, y: -281.5}
+      - {x: 54, y: -281.5}
+      - {x: 54, y: -233.5}
+    - - {x: 46, y: -184.5}
+      - {x: -52, y: -184.5}
+      - {x: -52, y: -226.5}
+      - {x: 51, y: -226.5}
+      - {x: 52, y: -224.5}
+      - {x: 52, y: -197.5}
+    - - {x: -233, y: -188.5}
+      - {x: -241, y: -197.5}
+      - {x: -241, y: -214.5}
+      - {x: -237, y: -224.5}
+      - {x: -211, y: -224.5}
+      - {x: -205, y: -218.5}
+      - {x: -205, y: -196.5}
+      - {x: -211, y: -188.5}
+    - - {x: 212, y: -188.5}
+      - {x: 205, y: -196.5}
+      - {x: 205, y: -219.5}
+      - {x: 211, y: -224.5}
+      - {x: 228, y: -224.5}
+      - {x: 234, y: -223.5}
+      - {x: 241, y: -215.5}
+      - {x: 241, y: -200.5}
+      - {x: 236, y: -188.5}
+    - - {x: -99, y: -181.5}
+      - {x: -106, y: -182.5}
+      - {x: -110, y: -187.5}
+      - {x: -110, y: -212.5}
+      - {x: -106, y: -222.5}
+      - {x: -79, y: -222.5}
+      - {x: -75, y: -213.5}
+      - {x: -75, y: -189.5}
+      - {x: -86, y: -181.5}
+    - - {x: 90, y: -181.5}
+      - {x: 78, y: -186.5}
+      - {x: 75, y: -195.5}
+      - {x: 75, y: -215.5}
+      - {x: 82, y: -222.5}
+      - {x: 108, y: -222.5}
+      - {x: 110, y: -218.5}
+      - {x: 110, y: -186.5}
+      - {x: 104, y: -181.5}
+    - - {x: -175, y: -191.5}
+      - {x: -177, y: -197.5}
+      - {x: -177, y: -218.5}
+      - {x: -172, y: -221.5}
+      - {x: -147, y: -221.5}
+      - {x: -141, y: -210.5}
+      - {x: -141, y: -198.5}
+      - {x: -149, y: -191.5}
+    - - {x: 146, y: -191.5}
+      - {x: 141, y: -197.5}
+      - {x: 141, y: -213.5}
+      - {x: 144, y: -221.5}
+      - {x: 176, y: -221.5}
+      - {x: 177, y: -217.5}
+      - {x: 177, y: -193.5}
+      - {x: 175, y: -191.5}
+    - - {x: -254, y: -146.5}
+      - {x: -255, y: -147.5}
+      - {x: -255, y: -173.5}
+      - {x: -253, y: -179.5}
+      - {x: -250, y: -181.5}
+      - {x: -230, y: -181.5}
+      - {x: -223, y: -178.5}
+      - {x: -219, y: -172.5}
+      - {x: -219, y: -153.5}
+      - {x: -221, y: -146.5}
+    - - {x: -210, y: -146.5}
+      - {x: -213, y: -152.5}
+      - {x: -213, y: -175.5}
+      - {x: -210, y: -179.5}
+      - {x: -204, y: -181.5}
+      - {x: -182, y: -181.5}
+      - {x: -177, y: -179.5}
+      - {x: -177, y: -146.5}
+    - - {x: -163, y: -146.5}
+      - {x: -169, y: -154.5}
+      - {x: -169, y: -176.5}
+      - {x: -165, y: -181.5}
+      - {x: -143, y: -181.5}
+      - {x: -134, y: -180.5}
+      - {x: -133, y: -179.5}
+      - {x: -133, y: -152.5}
+      - {x: -135, y: -146.5}
+    - - {x: 137, y: -146.5}
+      - {x: 133, y: -150.5}
+      - {x: 133, y: -176.5}
+      - {x: 136, y: -181.5}
+      - {x: 162, y: -181.5}
+      - {x: 169, y: -174.5}
+      - {x: 169, y: -151.5}
+      - {x: 160, y: -146.5}
+    - - {x: 183, y: -146.5}
+      - {x: 177, y: -152.5}
+      - {x: 177, y: -173.5}
+      - {x: 182, y: -181.5}
+      - {x: 207, y: -181.5}
+      - {x: 213, y: -174.5}
+      - {x: 213, y: -152.5}
+      - {x: 210, y: -146.5}
+    - - {x: 226, y: -146.5}
+      - {x: 219, y: -154.5}
+      - {x: 219, y: -170.5}
+      - {x: 226, y: -181.5}
+      - {x: 245, y: -181.5}
+      - {x: 255, y: -176.5}
+      - {x: 255, y: -153.5}
+      - {x: 247, y: -146.5}
+    - - {x: -114, y: -145.5}
+      - {x: -122, y: -153.5}
+      - {x: -122, y: -173.5}
+      - {x: -113, y: -180.5}
+      - {x: -93, y: -180.5}
+      - {x: -86, y: -172.5}
+      - {x: -86, y: -156.5}
+      - {x: -95, y: -145.5}
+    - - {x: -47, y: -144.5}
+      - {x: -71, y: -144.5}
+      - {x: -81, y: -148.5}
+      - {x: -81, y: -174.5}
+      - {x: -74, y: -179.5}
+      - {x: -68, y: -180.5}
+      - {x: -51, y: -180.5}
+      - {x: -45, y: -176.5}
+      - {x: -45, y: -148.5}
+    - - {x: 51, y: -144.5}
+      - {x: 45, y: -147.5}
+      - {x: 45, y: -175.5}
+      - {x: 52, y: -180.5}
+      - {x: 77, y: -180.5}
+      - {x: 81, y: -170.5}
+      - {x: 81, y: -150.5}
+      - {x: 76, y: -144.5}
+    - - {x: 92, y: -145.5}
+      - {x: 86, y: -152.5}
+      - {x: 86, y: -174.5}
+      - {x: 89, y: -180.5}
+      - {x: 122, y: -180.5}
+      - {x: 122, y: -151.5}
+      - {x: 117, y: -145.5}
+    - - {x: -29, y: -147.5}
+      - {x: -35, y: -151.5}
+      - {x: -35, y: -177.5}
+      - {x: 33, y: -177.5}
+      - {x: 35, y: -175.5}
+      - {x: 35, y: -152.5}
+      - {x: 34, y: -147.5}
+    - - {x: -145, y: -87.5}
+      - {x: -150, y: -88.5}
+      - {x: -162, y: -102.5}
+      - {x: -163, y: -103.5}
+      - {x: -163, y: -115.5}
+      - {x: -158, y: -131.5}
+      - {x: -132, y: -144.5}
+      - {x: -118, y: -144.5}
+      - {x: -117, y: -141.5}
+      - {x: -117, y: -99.5}
+      - {x: -136, y: -87.5}
+    - - {x: 128, y: -87.5}
+      - {x: 117, y: -91.5}
+      - {x: 117, y: -144.5}
+      - {x: 137, y: -144.5}
+      - {x: 163, y: -129.5}
+      - {x: 163, y: -92.5}
+      - {x: 160, y: -87.5}
+    - - {x: -100, y: -87.5}
+      - {x: -102, y: -98.5}
+      - {x: -102, y: -131.5}
+      - {x: -90, y: -143.5}
+      - {x: -81, y: -143.5}
+      - {x: -66, y: -131.5}
+      - {x: -66, y: -92.5}
+      - {x: -68, y: -87.5}
+    - - {x: 73, y: -87.5}
+      - {x: 66, y: -91.5}
+      - {x: 66, y: -132.5}
+      - {x: 69, y: -143.5}
+      - {x: 98, y: -143.5}
+      - {x: 102, y: -127.5}
+      - {x: 102, y: -95.5}
+      - {x: 93, y: -87.5}
+    - - {x: -191, y: -116.5}
+      - {x: -191, y: -106.5}
+      - {x: -191, y: -108.5}
+      - {x: -188, y: -113.5}
+      - {x: -175, y: -109.5}
+      - {x: -183, y: -91.5}
+      - {x: -214, y: -91.5}
+      - {x: -224, y: -94.5}
+      - {x: -232, y: -102.5}
+      - {x: -232, y: -125.5}
+      - {x: -223, y: -142.5}
+      - {x: -181, y: -142.5}
+      - {x: -172, y: -134.5}
+      - {x: -172, y: -129.5}
+      - {x: -174, y: -125.5}
+    - - {x: 192, y: -91.5}
+      - {x: 177, y: -95.5}
+      - {x: 178, y: -108.5}
+      - {x: 183, y: -111.5}
+      - {x: 172, y: -123.5}
+      - {x: 172, y: -133.5}
+      - {x: 174, y: -136.5}
+      - {x: 177, y: -141.5}
+      - {x: 183, y: -142.5}
+      - {x: 227, y: -142.5}
+      - {x: 232, y: -129.5}
+      - {x: 232, y: -100.5}
+      - {x: 220, y: -91.5}
+    - - {x: -34, y: -94.5}
+      - {x: -34, y: -128.5}
+      - {x: -30, y: -135.5}
+      - {x: 25, y: -135.5}
+      - {x: 34, y: -127.5}
+      - {x: 34, y: -94.5}
+    - - {x: -202, y: -48.5}
+      - {x: -212, y: -45.5}
+      - {x: -239, y: -45.5}
+      - {x: -241, y: -56.5}
+      - {x: -241, y: -87.5}
+      - {x: -193, y: -87.5}
+      - {x: -188, y: -83.5}
+      - {x: -188, y: -72.5}
+    - - {x: -131, y: -76.5}
+      - {x: -141, y: -62.5}
+      - {x: -164, y: -39.5}
+      - {x: -172, y: -39.5}
+      - {x: -178, y: -40.5}
+      - {x: -181, y: -50.5}
+      - {x: -181, y: -87.5}
+      - {x: -129, y: -87.5}
+      - {x: -126, y: -86.5}
+      - {x: -126, y: -79.5}
+      - {x: -128, y: -77.5}
+    - - {x: -68, y: -77.5}
+      - {x: -71, y: -76.5}
+      - {x: -81, y: -63.5}
+      - {x: -105, y: -39.5}
+      - {x: -113, y: -39.5}
+      - {x: -119, y: -40.5}
+      - {x: -121, y: -44.5}
+      - {x: -121, y: -87.5}
+      - {x: -71, y: -87.5}
+      - {x: -66, y: -83.5}
+      - {x: -66, y: -80.5}
+    - - {x: -50, y: -38.5}
+      - {x: -52, y: -50.5}
+      - {x: -52, y: -81.5}
+      - {x: -50, y: -87.5}
+      - {x: 50, y: -87.5}
+      - {x: 52, y: -80.5}
+      - {x: 52, y: -49.5}
+      - {x: 49, y: -38.5}
+    - - {x: 98, y: -39.5}
+      - {x: 66, y: -71.5}
+      - {x: 66, y: -83.5}
+      - {x: 70, y: -87.5}
+      - {x: 121, y: -87.5}
+      - {x: 121, y: -55.5}
+      - {x: 116, y: -39.5}
+    - - {x: 166, y: -39.5}
+      - {x: 147, y: -48.5}
+      - {x: 126, y: -73.5}
+      - {x: 126, y: -84.5}
+      - {x: 128, y: -87.5}
+      - {x: 181, y: -87.5}
+      - {x: 181, y: -54.5}
+      - {x: 176, y: -39.5}
+    - - {x: 188, y: -87.5}
+      - {x: 241, y: -87.5}
+      - {x: 241, y: -45.5}
+      - {x: 218, y: -45.5}
+      - {x: 206, y: -52.5}
+      - {x: 188, y: -78.5}
+    - - {x: -124, y: 32.5}
+      - {x: -125, y: 28.5}
+      - {x: -125, y: -20.5}
+      - {x: -98, y: -35.5}
+      - {x: -68, y: -35.5}
+      - {x: -59, y: -9.5}
+      - {x: -59, y: 21.5}
+      - {x: -61, y: 32.5}
+    - - {x: 59, y: 32.5}
+      - {x: 59, y: -33.5}
+      - {x: 60, y: -35.5}
+      - {x: 106, y: -35.5}
+      - {x: 118, y: -33.5}
+      - {x: 125, y: -25.5}
+      - {x: 125, y: 30.5}
+      - {x: 123, y: 32.5}
+    - - {x: -147, y: 27.5}
+      - {x: -177, y: 27.5}
+      - {x: -187, y: 17.5}
+      - {x: -187, y: -2.5}
+      - {x: -181, y: -18.5}
+      - {x: -153, y: -33.5}
+      - {x: -138, y: -33.5}
+      - {x: -136, y: -28.5}
+      - {x: -135, y: -22.5}
+      - {x: -135, y: 21.5}
+    - - {x: 187, y: -2.5}
+      - {x: 187, y: 27.5}
+      - {x: 135, y: 27.5}
+      - {x: 135, y: -27.5}
+      - {x: 136, y: -28.5}
+      - {x: 143, y: -33.5}
+      - {x: 151, y: -33.5}
+      - {x: 184, y: -12.5}
+      - {x: 182, y: -9.5}
+      - {x: 179, y: -6.5}
+    - - {x: -233, y: 27.5}
+      - {x: -247, y: 24.5}
+      - {x: -253, y: 14.5}
+      - {x: -253, y: -10.5}
+      - {x: -240, y: -23.5}
+      - {x: -231, y: -23.5}
+      - {x: -230, y: -22.5}
+      - {x: -226, y: -17.5}
+      - {x: -217, y: -23.5}
+      - {x: -190, y: -23.5}
+      - {x: -190, y: 24.5}
+      - {x: -198, y: 27.5}
+    - - {x: 237, y: 27.5}
+      - {x: 190, y: 27.5}
+      - {x: 190, y: -23.5}
+      - {x: 238, y: -23.5}
+      - {x: 250, y: -18.5}
+      - {x: 253, y: -2.5}
+      - {x: 253, y: 20.5}
+    - - {x: 4, y: 24.5}
+      - {x: 2, y: 9.5}
+      - {x: 2, y: 5.5}
+      - {x: 10, y: 2.5}
+      - {x: -1, y: 4.5}
+      - {x: -8, y: 24.5}
+      - {x: -54, y: 24.5}
+      - {x: -61, y: 14.5}
+      - {x: -61, y: -6.5}
+      - {x: -47, y: -20.5}
+      - {x: 58, y: -20.5}
+      - {x: 61, y: -16.5}
+      - {x: 61, y: 20.5}
+      - {x: 57, y: 24.5}
+    - - {x: -175, y: 92.5}
+      - {x: -175, y: 57.5}
+      - {x: -174, y: 48.5}
+      - {x: -143, y: 31.5}
+      - {x: -124, y: 31.5}
+      - {x: -123, y: 33.5}
+      - {x: -123, y: 92.5}
+    - - {x: 156, y: 92.5}
+      - {x: 129, y: 92.5}
+      - {x: 123, y: 81.5}
+      - {x: 123, y: 39.5}
+      - {x: 124, y: 36.5}
+      - {x: 130, y: 31.5}
+      - {x: 149, y: 31.5}
+      - {x: 172, y: 39.5}
+      - {x: 175, y: 54.5}
+      - {x: 175, y: 87.5}
+    - - {x: -207, y: 136.5}
+      - {x: -228, y: 136.5}
+      - {x: -240, y: 118.5}
+      - {x: -240, y: 88.5}
+      - {x: -236, y: 49.5}
+      - {x: -206, y: 32.5}
+      - {x: -182, y: 32.5}
+      - {x: -181, y: 42.5}
+      - {x: -181, y: 110.5}
+      - {x: -200, y: 134.5}
+    - - {x: 238, y: 90.5}
+      - {x: 240, y: 94.5}
+      - {x: 240, y: 126.5}
+      - {x: 232, y: 136.5}
+      - {x: 199, y: 136.5}
+      - {x: 181, y: 112.5}
+      - {x: 181, y: 51.5}
+      - {x: 184, y: 32.5}
+      - {x: 205, y: 32.5}
+      - {x: 239, y: 47.5}
+      - {x: 236, y: 81.5}
+      - {x: 229, y: 87.5}
+      - {x: 226, y: 86.5}
+    - - {x: -70, y: 93.5}
+      - {x: -76, y: 93.5}
+      - {x: -62, y: 93.5}
+      - {x: -58, y: 95.5}
+      - {x: -58, y: 169.5}
+      - {x: -65, y: 191.5}
+      - {x: -101, y: 191.5}
+      - {x: -114, y: 175.5}
+      - {x: -114, y: 147.5}
+      - {x: -111, y: 146.5}
+      - {x: -114, y: 141.5}
+      - {x: -114, y: 103.5}
+      - {x: -112, y: 89.5}
+      - {x: -96, y: 93.5}
+      - {x: -93, y: 96.5}
+      - {x: -107, y: 82.5}
+      - {x: -104, y: 51.5}
+      - {x: -90, y: 33.5}
+      - {x: -76, y: 33.5}
+      - {x: -71, y: 38.5}
+      - {x: -58, y: 59.5}
+      - {x: -58, y: 81.5}
+      - {x: -61, y: 92.5}
+    - - {x: 101, y: 83.5}
+      - {x: 99, y: 83.5}
+      - {x: 114, y: 92.5}
+      - {x: 114, y: 173.5}
+      - {x: 104, y: 191.5}
+      - {x: 58, y: 191.5}
+      - {x: 58, y: 41.5}
+      - {x: 73, y: 33.5}
+      - {x: 89, y: 33.5}
+      - {x: 91, y: 37.5}
+      - {x: 103, y: 59.5}
+      - {x: 107, y: 82.5}
+    - - {x: 9, y: 85.5}
+      - {x: 2, y: 82.5}
+      - {x: 0, y: 70.5}
+      - {x: 0, y: 67.5}
+      - {x: 0, y: 70.5}
+      - {x: -6, y: 85.5}
+      - {x: -27, y: 85.5}
+      - {x: -40, y: 82.5}
+      - {x: -40, y: 40.5}
+      - {x: 40, y: 40.5}
+      - {x: 40, y: 76.5}
+      - {x: 34, y: 85.5}
+    - - {x: -217, y: 66.5}
+      - {x: -218, y: 72.5}
+      - {x: -219, y: 69.5}
+      - {x: -217, y: 67.5}
+      - {x: -218, y: 67.5}
+      - {x: -221, y: 63.5}
+      - {x: -219, y: 63.5}
+    - - {x: 218, y: 67.5}
+      - {x: 217, y: 67.5}
+      - {x: 219, y: 69.5}
+      - {x: 218, y: 72.5}
+      - {x: 217, y: 66.5}
+      - {x: 221, y: 63.5}
+      - {x: 221, y: 65.5}
+    - - {x: -161, y: 138.5}
+      - {x: -169, y: 136.5}
+      - {x: -176, y: 119.5}
+      - {x: -176, y: 92.5}
+      - {x: -122, y: 92.5}
+      - {x: -120, y: 96.5}
+      - {x: -120, y: 106.5}
+      - {x: -138, y: 138.5}
+    - - {x: 144, y: 138.5}
+      - {x: 128, y: 126.5}
+      - {x: 120, y: 103.5}
+      - {x: 120, y: 95.5}
+      - {x: 123, y: 92.5}
+      - {x: 176, y: 92.5}
+      - {x: 176, y: 138.5}
+    - - {x: 52, y: 146.5}
+      - {x: 48, y: 145.5}
+      - {x: 44, y: 142.5}
+      - {x: 35, y: 147.5}
+      - {x: 38, y: 146.5}
+      - {x: 59, y: 146.5}
+      - {x: 57, y: 190.5}
+      - {x: 54, y: 191.5}
+      - {x: 16, y: 191.5}
+      - {x: 5, y: 169.5}
+      - {x: -19, y: 191.5}
+      - {x: -51, y: 191.5}
+      - {x: -59, y: 158.5}
+      - {x: -55, y: 147.5}
+      - {x: -52, y: 146.5}
+      - {x: -38, y: 146.5}
+      - {x: -35, y: 149.5}
+      - {x: -35, y: 147.5}
+      - {x: -42, y: 143.5}
+      - {x: -48, y: 145.5}
+      - {x: -51, y: 145.5}
+      - {x: -59, y: 139.5}
+      - {x: -60, y: 138.5}
+      - {x: -60, y: 110.5}
+      - {x: -52, y: 94.5}
+      - {x: 46, y: 94.5}
+      - {x: 53, y: 95.5}
+      - {x: 60, y: 126.5}
+      - {x: 60, y: 139.5}
+    - - {x: -5, y: 113.5}
+      - {x: -9, y: 113.5}
+      - {x: -10, y: 112.5}
+      - {x: -9, y: 112.5}
+      - {x: -12, y: 115.5}
+      - {x: -8, y: 120.5}
+      - {x: -8, y: 124.5}
+      - {x: -5, y: 124.5}
+      - {x: -1, y: 128.5}
+      - {x: -1, y: 132.5}
+      - {x: -2, y: 136.5}
+      - {x: -3, y: 139.5}
+      - {x: -11, y: 146.5}
+      - {x: -14, y: 146.5}
+      - {x: -17, y: 143.5}
+      - {x: -21, y: 147.5}
+      - {x: -27, y: 146.5}
+      - {x: -15, y: 145.5}
+      - {x: -5, y: 145.5}
+      - {x: -2, y: 146.5}
+      - {x: 0, y: 149.5}
+      - {x: 2, y: 146.5}
+      - {x: 5, y: 145.5}
+      - {x: 15, y: 145.5}
+      - {x: 27, y: 146.5}
+      - {x: 21, y: 147.5}
+      - {x: 17, y: 143.5}
+      - {x: 14, y: 146.5}
+      - {x: 11, y: 146.5}
+      - {x: 3, y: 139.5}
+      - {x: 2, y: 136.5}
+      - {x: 1, y: 132.5}
+      - {x: 1, y: 128.5}
+      - {x: 5, y: 124.5}
+      - {x: 8, y: 124.5}
+      - {x: 8, y: 120.5}
+      - {x: 12, y: 116.5}
+      - {x: 12, y: 115.5}
+      - {x: 9, y: 112.5}
+      - {x: 10, y: 112.5}
+      - {x: 9, y: 113.5}
+      - {x: 5, y: 113.5}
+      - {x: 0, y: 109.5}
+      - {x: 0, y: 110.5}
+    - - {x: -219, y: 193.5}
+      - {x: -235, y: 193.5}
+      - {x: -242, y: 181.5}
+      - {x: -242, y: 151.5}
+      - {x: -240, y: 145.5}
+      - {x: -187, y: 145.5}
+      - {x: -184, y: 149.5}
+      - {x: -184, y: 160.5}
+      - {x: -206, y: 189.5}
+    - - {x: -162, y: 191.5}
+      - {x: -170, y: 189.5}
+      - {x: -177, y: 172.5}
+      - {x: -177, y: 145.5}
+      - {x: -123, y: 145.5}
+      - {x: -121, y: 149.5}
+      - {x: -121, y: 159.5}
+      - {x: -139, y: 191.5}
+    - - {x: 145, y: 191.5}
+      - {x: 129, y: 179.5}
+      - {x: 121, y: 156.5}
+      - {x: 121, y: 148.5}
+      - {x: 124, y: 145.5}
+      - {x: 177, y: 145.5}
+      - {x: 177, y: 191.5}
+    - - {x: 184, y: 153.5}
+      - {x: 184, y: 146.5}
+      - {x: 185, y: 145.5}
+      - {x: 241, y: 145.5}
+      - {x: 242, y: 147.5}
+      - {x: 242, y: 193.5}
+      - {x: 210, y: 193.5}
+      - {x: 204, y: 192.5}
+    - - {x: -211, y: 289.5}
+      - {x: -249, y: 253.5}
+      - {x: -249, y: 196.5}
+      - {x: -243, y: 193.5}
+      - {x: -171, y: 193.5}
+      - {x: -170, y: 201.5}
+      - {x: -170, y: 289.5}
+    - - {x: 243, y: 237.5}
+      - {x: 206, y: 289.5}
+      - {x: 170, y: 289.5}
+      - {x: 170, y: 193.5}
+      - {x: 248, y: 193.5}
+      - {x: 249, y: 200.5}
+      - {x: 249, y: 233.5}
+    - - {x: -169, y: 240.5}
+      - {x: -184, y: 227.5}
+      - {x: -184, y: 207.5}
+      - {x: -180, y: 194.5}
+      - {x: -131, y: 194.5}
+      - {x: -127, y: 198.5}
+      - {x: -127, y: 210.5}
+      - {x: -146, y: 240.5}
+    - - {x: -54, y: 242.5}
+      - {x: -57, y: 232.5}
+      - {x: -57, y: 194.5}
+      - {x: 56, y: 194.5}
+      - {x: 57, y: 201.5}
+      - {x: 57, y: 232.5}
+      - {x: 49, y: 242.5}
+    - - {x: 175, y: 239.5}
+      - {x: 170, y: 240.5}
+      - {x: 144, y: 240.5}
+      - {x: 134, y: 221.5}
+      - {x: 127, y: 203.5}
+      - {x: 127, y: 197.5}
+      - {x: 131, y: 194.5}
+      - {x: 182, y: 194.5}
+      - {x: 184, y: 199.5}
+      - {x: 184, y: 224.5}
+      - {x: 183, y: 226.5}
+    - - {x: -114, y: 240.5}
+      - {x: -120, y: 236.5}
+      - {x: -120, y: 197.5}
+      - {x: -118, y: 195.5}
+      - {x: -64, y: 195.5}
+      - {x: -61, y: 199.5}
+      - {x: -61, y: 233.5}
+      - {x: -80, y: 240.5}
+    - - {x: 76, y: 240.5}
+      - {x: 67, y: 228.5}
+      - {x: 61, y: 206.5}
+      - {x: 61, y: 197.5}
+      - {x: 62, y: 195.5}
+      - {x: 119, y: 195.5}
+      - {x: 120, y: 201.5}
+      - {x: 120, y: 235.5}
+      - {x: 105, y: 240.5}
+    - - {x: -13, y: 276.5}
+      - {x: -20, y: 276.5}
+      - {x: -23, y: 271.5}
+      - {x: -23, y: 254.5}
+      - {x: -21, y: 253.5}
+      - {x: -6, y: 253.5}
+      - {x: -4, y: 257.5}
+      - {x: -4, y: 271.5}
+      - {x: -7, y: 274.5}
+    - - {x: 8, y: 276.5}
+      - {x: 4, y: 269.5}
+      - {x: 4, y: 254.5}
+      - {x: 9, y: 253.5}
+      - {x: 22, y: 253.5}
+      - {x: 23, y: 254.5}
+      - {x: 23, y: 272.5}
+      - {x: 22, y: 276.5}
+    - - {x: -95, y: 274.5}
+      - {x: -102, y: 268.5}
+      - {x: -102, y: 256.5}
+      - {x: -95, y: 254.5}
+      - {x: -84, y: 254.5}
+      - {x: -82, y: 259.5}
+      - {x: -82, y: 266.5}
+      - {x: -86, y: 274.5}
+    - - {x: 96, y: 274.5}
+      - {x: 85, y: 274.5}
+      - {x: 82, y: 265.5}
+      - {x: 82, y: 259.5}
+      - {x: 85, y: 254.5}
+      - {x: 94, y: 254.5}
+      - {x: 98, y: 255.5}
+      - {x: 101, y: 259.5}
+      - {x: 102, y: 260.5}
+      - {x: 102, y: 269.5}
+    - - {x: -165, y: 275.5}
+      - {x: -166, y: 274.5}
+      - {x: -166, y: 256.5}
+      - {x: -165, y: 255.5}
+      - {x: -147, y: 255.5}
+      - {x: -146, y: 256.5}
+      - {x: -146, y: 274.5}
+      - {x: -147, y: 275.5}
+    - - {x: 146, y: 275.5}
+      - {x: 146, y: 255.5}
+      - {x: 166, y: 255.5}
+      - {x: 166, y: 275.5}
+    - - {x: -137, y: 274.5}
+      - {x: -141, y: 270.5}
+      - {x: -141, y: 258.5}
+      - {x: -135, y: 256.5}
+      - {x: -127, y: 256.5}
+      - {x: -123, y: 260.5}
+      - {x: -123, y: 272.5}
+      - {x: -129, y: 274.5}
+    - - {x: -115, y: 272.5}
+      - {x: -121, y: 270.5}
+      - {x: -121, y: 257.5}
+      - {x: -119, y: 256.5}
+      - {x: -107, y: 256.5}
+      - {x: -105, y: 260.5}
+      - {x: -105, y: 270.5}
+      - {x: -108, y: 272.5}
+    - - {x: -73, y: 274.5}
+      - {x: -77, y: 272.5}
+      - {x: -77, y: 261.5}
+      - {x: -74, y: 257.5}
+      - {x: -68, y: 256.5}
+      - {x: -60, y: 256.5}
+      - {x: -56, y: 259.5}
+      - {x: -56, y: 272.5}
+      - {x: -57, y: 274.5}
+    - - {x: -35, y: 274.5}
+      - {x: -36, y: 273.5}
+      - {x: -36, y: 256.5}
+      - {x: -30, y: 256.5}
+      - {x: -28, y: 263.5}
+      - {x: -28, y: 269.5}
+      - {x: -33, y: 274.5}
+    - - {x: -4, y: 263.5}
+      - {x: -6, y: 258.5}
+      - {x: -4, y: 256.5}
+      - {x: 5, y: 256.5}
+      - {x: 6, y: 259.5}
+      - {x: 2, y: 264.5}
+      - {x: -1, y: 264.5}
+    - - {x: 30, y: 274.5}
+      - {x: 28, y: 267.5}
+      - {x: 28, y: 261.5}
+      - {x: 33, y: 256.5}
+      - {x: 36, y: 257.5}
+      - {x: 36, y: 272.5}
+      - {x: 34, y: 274.5}
+    - - {x: 60, y: 274.5}
+      - {x: 56, y: 271.5}
+      - {x: 56, y: 262.5}
+      - {x: 59, y: 256.5}
+      - {x: 72, y: 256.5}
+      - {x: 77, y: 260.5}
+      - {x: 77, y: 268.5}
+      - {x: 74, y: 274.5}
+    - - {x: 109, y: 272.5}
+      - {x: 105, y: 268.5}
+      - {x: 105, y: 262.5}
+      - {x: 107, y: 256.5}
+      - {x: 117, y: 256.5}
+      - {x: 121, y: 260.5}
+      - {x: 121, y: 266.5}
+      - {x: 119, y: 272.5}
+    - - {x: 129, y: 274.5}
+      - {x: 123, y: 272.5}
+      - {x: 123, y: 260.5}
+      - {x: 127, y: 256.5}
+      - {x: 135, y: 256.5}
+      - {x: 141, y: 258.5}
+      - {x: 141, y: 270.5}
+      - {x: 137, y: 274.5}
+    - - {x: -37, y: 273.5}
+      - {x: -48, y: 273.5}
+      - {x: -52, y: 271.5}
+      - {x: -52, y: 261.5}
+      - {x: -48, y: 257.5}
+      - {x: -41, y: 257.5}
+      - {x: -38, y: 258.5}
+      - {x: -34, y: 261.5}
+      - {x: -34, y: 270.5}
+    - - {x: 41, y: 273.5}
+      - {x: 38, y: 272.5}
+      - {x: 34, y: 269.5}
+      - {x: 34, y: 260.5}
+      - {x: 37, y: 257.5}
+      - {x: 48, y: 257.5}
+      - {x: 52, y: 259.5}
+      - {x: 52, y: 269.5}
+      - {x: 48, y: 273.5}
+    - - {x: -5, y: 274.5}
+      - {x: -6, y: 271.5}
+      - {x: -2, y: 266.5}
+      - {x: 1, y: 266.5}
+      - {x: 4, y: 267.5}
+      - {x: 6, y: 272.5}
+      - {x: 4, y: 274.5}
+    physicsShape:
+    - - {x: -107, y: -229.5}
+      - {x: -113, y: -238.5}
+      - {x: -113, y: -278.5}
+      - {x: -107, y: -289.5}
+      - {x: -82, y: -289.5}
+      - {x: -67, y: -265.5}
+      - {x: -67, y: -234.5}
+      - {x: -74, y: -229.5}
+    - - {x: 69, y: -229.5}
+      - {x: 67, y: -230.5}
+      - {x: 67, y: -266.5}
+      - {x: 76, y: -289.5}
+      - {x: 105, y: -289.5}
+      - {x: 113, y: -267.5}
+      - {x: 113, y: -233.5}
+      - {x: 109, y: -229.5}
+    - - {x: -158, y: -228.5}
+      - {x: -161, y: -239.5}
+      - {x: -161, y: -275.5}
+      - {x: -153, y: -284.5}
+      - {x: -130, y: -284.5}
+      - {x: -125, y: -268.5}
+      - {x: -125, y: -232.5}
+      - {x: -133, y: -228.5}
+    - - {x: 130, y: -228.5}
+      - {x: 125, y: -230.5}
+      - {x: 125, y: -268.5}
+      - {x: 131, y: -284.5}
+      - {x: 153, y: -284.5}
+      - {x: 161, y: -273.5}
+      - {x: 161, y: -241.5}
+      - {x: 158, y: -228.5}
+    - - {x: -290, y: -231.5}
+      - {x: -301, y: -240.5}
+      - {x: -301, y: -268.5}
+      - {x: -290, y: -282.5}
+      - {x: -279, y: -282.5}
+      - {x: -279, y: -281.5}
+      - {x: -275, y: -276.5}
+      - {x: -266, y: -282.5}
+      - {x: -240, y: -282.5}
+      - {x: -239, y: -281.5}
+      - {x: -239, y: -244.5}
+      - {x: -246, y: -231.5}
+    - - {x: -194, y: -256.5}
+      - {x: -194, y: -246.5}
+      - {x: -194, y: -248.5}
+      - {x: -191, y: -253.5}
+      - {x: -179, y: -249.5}
+      - {x: -181, y: -231.5}
+      - {x: -232, y: -231.5}
+      - {x: -235, y: -232.5}
+      - {x: -235, y: -274.5}
+      - {x: -224, y: -282.5}
+      - {x: -179, y: -282.5}
+      - {x: -175, y: -277.5}
+      - {x: -175, y: -267.5}
+      - {x: -176, y: -265.5}
+    - - {x: 183, y: -231.5}
+      - {x: 175, y: -259.5}
+      - {x: 175, y: -275.5}
+      - {x: 183, y: -282.5}
+      - {x: 231, y: -282.5}
+      - {x: 235, y: -264.5}
+      - {x: 235, y: -239.5}
+      - {x: 232, y: -231.5}
+    - - {x: 252, y: -231.5}
+      - {x: 239, y: -238.5}
+      - {x: 239, y: -282.5}
+      - {x: 291, y: -282.5}
+      - {x: 301, y: -279.5}
+      - {x: 301, y: -236.5}
+      - {x: 294, y: -231.5}
+    - - {x: -53, y: -233.5}
+      - {x: -54, y: -236.5}
+      - {x: -54, y: -281.5}
+      - {x: 54, y: -281.5}
+      - {x: 54, y: -233.5}
+    - - {x: 46, y: -184.5}
+      - {x: -52, y: -184.5}
+      - {x: -52, y: -226.5}
+      - {x: 51, y: -226.5}
+      - {x: 52, y: -224.5}
+      - {x: 52, y: -197.5}
+    - - {x: -233, y: -188.5}
+      - {x: -241, y: -197.5}
+      - {x: -241, y: -214.5}
+      - {x: -237, y: -224.5}
+      - {x: -211, y: -224.5}
+      - {x: -205, y: -218.5}
+      - {x: -205, y: -196.5}
+      - {x: -211, y: -188.5}
+    - - {x: 212, y: -188.5}
+      - {x: 205, y: -196.5}
+      - {x: 205, y: -219.5}
+      - {x: 211, y: -224.5}
+      - {x: 228, y: -224.5}
+      - {x: 234, y: -223.5}
+      - {x: 241, y: -215.5}
+      - {x: 241, y: -200.5}
+      - {x: 236, y: -188.5}
+    - - {x: -99, y: -181.5}
+      - {x: -106, y: -182.5}
+      - {x: -110, y: -187.5}
+      - {x: -110, y: -212.5}
+      - {x: -106, y: -222.5}
+      - {x: -79, y: -222.5}
+      - {x: -75, y: -213.5}
+      - {x: -75, y: -189.5}
+      - {x: -86, y: -181.5}
+    - - {x: 90, y: -181.5}
+      - {x: 78, y: -186.5}
+      - {x: 75, y: -195.5}
+      - {x: 75, y: -215.5}
+      - {x: 82, y: -222.5}
+      - {x: 108, y: -222.5}
+      - {x: 110, y: -218.5}
+      - {x: 110, y: -186.5}
+      - {x: 104, y: -181.5}
+    - - {x: -175, y: -191.5}
+      - {x: -177, y: -197.5}
+      - {x: -177, y: -218.5}
+      - {x: -172, y: -221.5}
+      - {x: -147, y: -221.5}
+      - {x: -141, y: -210.5}
+      - {x: -141, y: -198.5}
+      - {x: -149, y: -191.5}
+    - - {x: 146, y: -191.5}
+      - {x: 141, y: -197.5}
+      - {x: 141, y: -213.5}
+      - {x: 144, y: -221.5}
+      - {x: 176, y: -221.5}
+      - {x: 177, y: -217.5}
+      - {x: 177, y: -193.5}
+      - {x: 175, y: -191.5}
+    - - {x: -254, y: -146.5}
+      - {x: -255, y: -147.5}
+      - {x: -255, y: -173.5}
+      - {x: -253, y: -179.5}
+      - {x: -250, y: -181.5}
+      - {x: -230, y: -181.5}
+      - {x: -223, y: -178.5}
+      - {x: -219, y: -172.5}
+      - {x: -219, y: -153.5}
+      - {x: -221, y: -146.5}
+    - - {x: -210, y: -146.5}
+      - {x: -213, y: -152.5}
+      - {x: -213, y: -175.5}
+      - {x: -210, y: -179.5}
+      - {x: -204, y: -181.5}
+      - {x: -182, y: -181.5}
+      - {x: -177, y: -179.5}
+      - {x: -177, y: -146.5}
+    - - {x: -163, y: -146.5}
+      - {x: -169, y: -154.5}
+      - {x: -169, y: -176.5}
+      - {x: -165, y: -181.5}
+      - {x: -143, y: -181.5}
+      - {x: -134, y: -180.5}
+      - {x: -133, y: -179.5}
+      - {x: -133, y: -152.5}
+      - {x: -135, y: -146.5}
+    - - {x: 137, y: -146.5}
+      - {x: 133, y: -150.5}
+      - {x: 133, y: -176.5}
+      - {x: 136, y: -181.5}
+      - {x: 162, y: -181.5}
+      - {x: 169, y: -174.5}
+      - {x: 169, y: -151.5}
+      - {x: 160, y: -146.5}
+    - - {x: 183, y: -146.5}
+      - {x: 177, y: -152.5}
+      - {x: 177, y: -173.5}
+      - {x: 182, y: -181.5}
+      - {x: 207, y: -181.5}
+      - {x: 213, y: -174.5}
+      - {x: 213, y: -152.5}
+      - {x: 210, y: -146.5}
+    - - {x: 226, y: -146.5}
+      - {x: 219, y: -154.5}
+      - {x: 219, y: -170.5}
+      - {x: 226, y: -181.5}
+      - {x: 245, y: -181.5}
+      - {x: 255, y: -176.5}
+      - {x: 255, y: -153.5}
+      - {x: 247, y: -146.5}
+    - - {x: -114, y: -145.5}
+      - {x: -122, y: -153.5}
+      - {x: -122, y: -173.5}
+      - {x: -113, y: -180.5}
+      - {x: -93, y: -180.5}
+      - {x: -86, y: -172.5}
+      - {x: -86, y: -156.5}
+      - {x: -95, y: -145.5}
+    - - {x: -47, y: -144.5}
+      - {x: -71, y: -144.5}
+      - {x: -81, y: -148.5}
+      - {x: -81, y: -174.5}
+      - {x: -74, y: -179.5}
+      - {x: -68, y: -180.5}
+      - {x: -51, y: -180.5}
+      - {x: -45, y: -176.5}
+      - {x: -45, y: -148.5}
+    - - {x: 51, y: -144.5}
+      - {x: 45, y: -147.5}
+      - {x: 45, y: -175.5}
+      - {x: 52, y: -180.5}
+      - {x: 77, y: -180.5}
+      - {x: 81, y: -170.5}
+      - {x: 81, y: -150.5}
+      - {x: 76, y: -144.5}
+    - - {x: 92, y: -145.5}
+      - {x: 86, y: -152.5}
+      - {x: 86, y: -174.5}
+      - {x: 89, y: -180.5}
+      - {x: 122, y: -180.5}
+      - {x: 122, y: -151.5}
+      - {x: 117, y: -145.5}
+    - - {x: -29, y: -147.5}
+      - {x: -35, y: -151.5}
+      - {x: -35, y: -177.5}
+      - {x: 33, y: -177.5}
+      - {x: 35, y: -175.5}
+      - {x: 35, y: -152.5}
+      - {x: 34, y: -147.5}
+    - - {x: -145, y: -87.5}
+      - {x: -150, y: -88.5}
+      - {x: -162, y: -102.5}
+      - {x: -163, y: -103.5}
+      - {x: -163, y: -115.5}
+      - {x: -158, y: -131.5}
+      - {x: -132, y: -144.5}
+      - {x: -118, y: -144.5}
+      - {x: -117, y: -141.5}
+      - {x: -117, y: -99.5}
+      - {x: -136, y: -87.5}
+    - - {x: 128, y: -87.5}
+      - {x: 117, y: -91.5}
+      - {x: 117, y: -144.5}
+      - {x: 137, y: -144.5}
+      - {x: 163, y: -129.5}
+      - {x: 163, y: -92.5}
+      - {x: 160, y: -87.5}
+    - - {x: -100, y: -87.5}
+      - {x: -102, y: -98.5}
+      - {x: -102, y: -131.5}
+      - {x: -90, y: -143.5}
+      - {x: -81, y: -143.5}
+      - {x: -66, y: -131.5}
+      - {x: -66, y: -92.5}
+      - {x: -68, y: -87.5}
+    - - {x: 73, y: -87.5}
+      - {x: 66, y: -91.5}
+      - {x: 66, y: -132.5}
+      - {x: 69, y: -143.5}
+      - {x: 98, y: -143.5}
+      - {x: 102, y: -127.5}
+      - {x: 102, y: -95.5}
+      - {x: 93, y: -87.5}
+    - - {x: -191, y: -116.5}
+      - {x: -191, y: -106.5}
+      - {x: -191, y: -108.5}
+      - {x: -188, y: -113.5}
+      - {x: -175, y: -109.5}
+      - {x: -183, y: -91.5}
+      - {x: -214, y: -91.5}
+      - {x: -224, y: -94.5}
+      - {x: -232, y: -102.5}
+      - {x: -232, y: -125.5}
+      - {x: -223, y: -142.5}
+      - {x: -181, y: -142.5}
+      - {x: -172, y: -134.5}
+      - {x: -172, y: -129.5}
+      - {x: -174, y: -125.5}
+    - - {x: 192, y: -91.5}
+      - {x: 177, y: -95.5}
+      - {x: 178, y: -108.5}
+      - {x: 183, y: -111.5}
+      - {x: 172, y: -123.5}
+      - {x: 172, y: -133.5}
+      - {x: 174, y: -136.5}
+      - {x: 177, y: -141.5}
+      - {x: 183, y: -142.5}
+      - {x: 227, y: -142.5}
+      - {x: 232, y: -129.5}
+      - {x: 232, y: -100.5}
+      - {x: 220, y: -91.5}
+    - - {x: -34, y: -94.5}
+      - {x: -34, y: -128.5}
+      - {x: -30, y: -135.5}
+      - {x: 25, y: -135.5}
+      - {x: 34, y: -127.5}
+      - {x: 34, y: -94.5}
+    - - {x: -202, y: -48.5}
+      - {x: -212, y: -45.5}
+      - {x: -239, y: -45.5}
+      - {x: -241, y: -56.5}
+      - {x: -241, y: -87.5}
+      - {x: -193, y: -87.5}
+      - {x: -188, y: -83.5}
+      - {x: -188, y: -72.5}
+    - - {x: -131, y: -76.5}
+      - {x: -141, y: -62.5}
+      - {x: -164, y: -39.5}
+      - {x: -172, y: -39.5}
+      - {x: -178, y: -40.5}
+      - {x: -181, y: -50.5}
+      - {x: -181, y: -87.5}
+      - {x: -129, y: -87.5}
+      - {x: -126, y: -86.5}
+      - {x: -126, y: -79.5}
+      - {x: -128, y: -77.5}
+    - - {x: -68, y: -77.5}
+      - {x: -71, y: -76.5}
+      - {x: -81, y: -63.5}
+      - {x: -105, y: -39.5}
+      - {x: -113, y: -39.5}
+      - {x: -119, y: -40.5}
+      - {x: -121, y: -44.5}
+      - {x: -121, y: -87.5}
+      - {x: -71, y: -87.5}
+      - {x: -66, y: -83.5}
+      - {x: -66, y: -80.5}
+    - - {x: -50, y: -38.5}
+      - {x: -52, y: -50.5}
+      - {x: -52, y: -81.5}
+      - {x: -50, y: -87.5}
+      - {x: 50, y: -87.5}
+      - {x: 52, y: -80.5}
+      - {x: 52, y: -49.5}
+      - {x: 49, y: -38.5}
+    - - {x: 98, y: -39.5}
+      - {x: 66, y: -71.5}
+      - {x: 66, y: -83.5}
+      - {x: 70, y: -87.5}
+      - {x: 121, y: -87.5}
+      - {x: 121, y: -55.5}
+      - {x: 116, y: -39.5}
+    - - {x: 166, y: -39.5}
+      - {x: 147, y: -48.5}
+      - {x: 126, y: -73.5}
+      - {x: 126, y: -84.5}
+      - {x: 128, y: -87.5}
+      - {x: 181, y: -87.5}
+      - {x: 181, y: -54.5}
+      - {x: 176, y: -39.5}
+    - - {x: 188, y: -87.5}
+      - {x: 241, y: -87.5}
+      - {x: 241, y: -45.5}
+      - {x: 218, y: -45.5}
+      - {x: 206, y: -52.5}
+      - {x: 188, y: -78.5}
+    - - {x: -124, y: 32.5}
+      - {x: -125, y: 28.5}
+      - {x: -125, y: -20.5}
+      - {x: -98, y: -35.5}
+      - {x: -68, y: -35.5}
+      - {x: -59, y: -9.5}
+      - {x: -59, y: 21.5}
+      - {x: -61, y: 32.5}
+    - - {x: 59, y: 32.5}
+      - {x: 59, y: -33.5}
+      - {x: 60, y: -35.5}
+      - {x: 106, y: -35.5}
+      - {x: 118, y: -33.5}
+      - {x: 125, y: -25.5}
+      - {x: 125, y: 30.5}
+      - {x: 123, y: 32.5}
+    - - {x: -147, y: 27.5}
+      - {x: -177, y: 27.5}
+      - {x: -187, y: 17.5}
+      - {x: -187, y: -2.5}
+      - {x: -181, y: -18.5}
+      - {x: -153, y: -33.5}
+      - {x: -138, y: -33.5}
+      - {x: -136, y: -28.5}
+      - {x: -135, y: -22.5}
+      - {x: -135, y: 21.5}
+    - - {x: 187, y: -2.5}
+      - {x: 187, y: 27.5}
+      - {x: 135, y: 27.5}
+      - {x: 135, y: -27.5}
+      - {x: 136, y: -28.5}
+      - {x: 143, y: -33.5}
+      - {x: 151, y: -33.5}
+      - {x: 184, y: -12.5}
+      - {x: 182, y: -9.5}
+      - {x: 179, y: -6.5}
+    - - {x: -233, y: 27.5}
+      - {x: -247, y: 24.5}
+      - {x: -253, y: 14.5}
+      - {x: -253, y: -10.5}
+      - {x: -240, y: -23.5}
+      - {x: -231, y: -23.5}
+      - {x: -230, y: -22.5}
+      - {x: -226, y: -17.5}
+      - {x: -217, y: -23.5}
+      - {x: -190, y: -23.5}
+      - {x: -190, y: 24.5}
+      - {x: -198, y: 27.5}
+    - - {x: 237, y: 27.5}
+      - {x: 190, y: 27.5}
+      - {x: 190, y: -23.5}
+      - {x: 238, y: -23.5}
+      - {x: 250, y: -18.5}
+      - {x: 253, y: -2.5}
+      - {x: 253, y: 20.5}
+    - - {x: 4, y: 24.5}
+      - {x: 2, y: 9.5}
+      - {x: 2, y: 5.5}
+      - {x: 10, y: 2.5}
+      - {x: -1, y: 4.5}
+      - {x: -8, y: 24.5}
+      - {x: -54, y: 24.5}
+      - {x: -61, y: 14.5}
+      - {x: -61, y: -6.5}
+      - {x: -47, y: -20.5}
+      - {x: 58, y: -20.5}
+      - {x: 61, y: -16.5}
+      - {x: 61, y: 20.5}
+      - {x: 57, y: 24.5}
+    - - {x: -175, y: 92.5}
+      - {x: -175, y: 57.5}
+      - {x: -174, y: 48.5}
+      - {x: -143, y: 31.5}
+      - {x: -124, y: 31.5}
+      - {x: -123, y: 33.5}
+      - {x: -123, y: 92.5}
+    - - {x: 156, y: 92.5}
+      - {x: 129, y: 92.5}
+      - {x: 123, y: 81.5}
+      - {x: 123, y: 39.5}
+      - {x: 124, y: 36.5}
+      - {x: 130, y: 31.5}
+      - {x: 149, y: 31.5}
+      - {x: 172, y: 39.5}
+      - {x: 175, y: 54.5}
+      - {x: 175, y: 87.5}
+    - - {x: -207, y: 136.5}
+      - {x: -228, y: 136.5}
+      - {x: -240, y: 118.5}
+      - {x: -240, y: 88.5}
+      - {x: -236, y: 49.5}
+      - {x: -206, y: 32.5}
+      - {x: -182, y: 32.5}
+      - {x: -181, y: 42.5}
+      - {x: -181, y: 110.5}
+      - {x: -200, y: 134.5}
+    - - {x: 238, y: 90.5}
+      - {x: 240, y: 94.5}
+      - {x: 240, y: 126.5}
+      - {x: 232, y: 136.5}
+      - {x: 199, y: 136.5}
+      - {x: 181, y: 112.5}
+      - {x: 181, y: 51.5}
+      - {x: 184, y: 32.5}
+      - {x: 205, y: 32.5}
+      - {x: 239, y: 47.5}
+      - {x: 236, y: 81.5}
+      - {x: 229, y: 87.5}
+      - {x: 226, y: 86.5}
+    - - {x: -70, y: 93.5}
+      - {x: -76, y: 93.5}
+      - {x: -62, y: 93.5}
+      - {x: -58, y: 95.5}
+      - {x: -58, y: 169.5}
+      - {x: -65, y: 191.5}
+      - {x: -101, y: 191.5}
+      - {x: -114, y: 175.5}
+      - {x: -114, y: 147.5}
+      - {x: -111, y: 146.5}
+      - {x: -114, y: 141.5}
+      - {x: -114, y: 103.5}
+      - {x: -112, y: 89.5}
+      - {x: -96, y: 93.5}
+      - {x: -93, y: 96.5}
+      - {x: -107, y: 82.5}
+      - {x: -104, y: 51.5}
+      - {x: -90, y: 33.5}
+      - {x: -76, y: 33.5}
+      - {x: -71, y: 38.5}
+      - {x: -58, y: 59.5}
+      - {x: -58, y: 81.5}
+      - {x: -61, y: 92.5}
+    - - {x: 101, y: 83.5}
+      - {x: 99, y: 83.5}
+      - {x: 114, y: 92.5}
+      - {x: 114, y: 173.5}
+      - {x: 104, y: 191.5}
+      - {x: 58, y: 191.5}
+      - {x: 58, y: 41.5}
+      - {x: 73, y: 33.5}
+      - {x: 89, y: 33.5}
+      - {x: 91, y: 37.5}
+      - {x: 103, y: 59.5}
+      - {x: 107, y: 82.5}
+    - - {x: 9, y: 85.5}
+      - {x: 2, y: 82.5}
+      - {x: 0, y: 70.5}
+      - {x: 0, y: 67.5}
+      - {x: 0, y: 70.5}
+      - {x: -6, y: 85.5}
+      - {x: -27, y: 85.5}
+      - {x: -40, y: 82.5}
+      - {x: -40, y: 40.5}
+      - {x: 40, y: 40.5}
+      - {x: 40, y: 76.5}
+      - {x: 34, y: 85.5}
+    - - {x: -217, y: 66.5}
+      - {x: -218, y: 72.5}
+      - {x: -219, y: 69.5}
+      - {x: -217, y: 67.5}
+      - {x: -218, y: 67.5}
+      - {x: -221, y: 63.5}
+      - {x: -219, y: 63.5}
+    - - {x: 218, y: 67.5}
+      - {x: 217, y: 67.5}
+      - {x: 219, y: 69.5}
+      - {x: 218, y: 72.5}
+      - {x: 217, y: 66.5}
+      - {x: 221, y: 63.5}
+      - {x: 221, y: 65.5}
+    - - {x: -161, y: 138.5}
+      - {x: -169, y: 136.5}
+      - {x: -176, y: 119.5}
+      - {x: -176, y: 92.5}
+      - {x: -122, y: 92.5}
+      - {x: -120, y: 96.5}
+      - {x: -120, y: 106.5}
+      - {x: -138, y: 138.5}
+    - - {x: 144, y: 138.5}
+      - {x: 128, y: 126.5}
+      - {x: 120, y: 103.5}
+      - {x: 120, y: 95.5}
+      - {x: 123, y: 92.5}
+      - {x: 176, y: 92.5}
+      - {x: 176, y: 138.5}
+    - - {x: 52, y: 146.5}
+      - {x: 48, y: 145.5}
+      - {x: 44, y: 142.5}
+      - {x: 35, y: 147.5}
+      - {x: 38, y: 146.5}
+      - {x: 59, y: 146.5}
+      - {x: 57, y: 190.5}
+      - {x: 54, y: 191.5}
+      - {x: 16, y: 191.5}
+      - {x: 5, y: 169.5}
+      - {x: -19, y: 191.5}
+      - {x: -51, y: 191.5}
+      - {x: -59, y: 158.5}
+      - {x: -55, y: 147.5}
+      - {x: -52, y: 146.5}
+      - {x: -38, y: 146.5}
+      - {x: -35, y: 149.5}
+      - {x: -35, y: 147.5}
+      - {x: -42, y: 143.5}
+      - {x: -48, y: 145.5}
+      - {x: -51, y: 145.5}
+      - {x: -59, y: 139.5}
+      - {x: -60, y: 138.5}
+      - {x: -60, y: 110.5}
+      - {x: -52, y: 94.5}
+      - {x: 46, y: 94.5}
+      - {x: 53, y: 95.5}
+      - {x: 60, y: 126.5}
+      - {x: 60, y: 139.5}
+    - - {x: -5, y: 113.5}
+      - {x: -9, y: 113.5}
+      - {x: -10, y: 112.5}
+      - {x: -9, y: 112.5}
+      - {x: -12, y: 115.5}
+      - {x: -8, y: 120.5}
+      - {x: -8, y: 124.5}
+      - {x: -5, y: 124.5}
+      - {x: -1, y: 128.5}
+      - {x: -1, y: 132.5}
+      - {x: -2, y: 136.5}
+      - {x: -3, y: 139.5}
+      - {x: -11, y: 146.5}
+      - {x: -14, y: 146.5}
+      - {x: -17, y: 143.5}
+      - {x: -21, y: 147.5}
+      - {x: -27, y: 146.5}
+      - {x: -15, y: 145.5}
+      - {x: -5, y: 145.5}
+      - {x: -2, y: 146.5}
+      - {x: 0, y: 149.5}
+      - {x: 2, y: 146.5}
+      - {x: 5, y: 145.5}
+      - {x: 15, y: 145.5}
+      - {x: 27, y: 146.5}
+      - {x: 21, y: 147.5}
+      - {x: 17, y: 143.5}
+      - {x: 14, y: 146.5}
+      - {x: 11, y: 146.5}
+      - {x: 3, y: 139.5}
+      - {x: 2, y: 136.5}
+      - {x: 1, y: 132.5}
+      - {x: 1, y: 128.5}
+      - {x: 5, y: 124.5}
+      - {x: 8, y: 124.5}
+      - {x: 8, y: 120.5}
+      - {x: 12, y: 116.5}
+      - {x: 12, y: 115.5}
+      - {x: 9, y: 112.5}
+      - {x: 10, y: 112.5}
+      - {x: 9, y: 113.5}
+      - {x: 5, y: 113.5}
+      - {x: 0, y: 109.5}
+      - {x: 0, y: 110.5}
+    - - {x: -219, y: 193.5}
+      - {x: -235, y: 193.5}
+      - {x: -242, y: 181.5}
+      - {x: -242, y: 151.5}
+      - {x: -240, y: 145.5}
+      - {x: -187, y: 145.5}
+      - {x: -184, y: 149.5}
+      - {x: -184, y: 160.5}
+      - {x: -206, y: 189.5}
+    - - {x: -162, y: 191.5}
+      - {x: -170, y: 189.5}
+      - {x: -177, y: 172.5}
+      - {x: -177, y: 145.5}
+      - {x: -123, y: 145.5}
+      - {x: -121, y: 149.5}
+      - {x: -121, y: 159.5}
+      - {x: -139, y: 191.5}
+    - - {x: 145, y: 191.5}
+      - {x: 129, y: 179.5}
+      - {x: 121, y: 156.5}
+      - {x: 121, y: 148.5}
+      - {x: 124, y: 145.5}
+      - {x: 177, y: 145.5}
+      - {x: 177, y: 191.5}
+    - - {x: 184, y: 153.5}
+      - {x: 184, y: 146.5}
+      - {x: 185, y: 145.5}
+      - {x: 241, y: 145.5}
+      - {x: 242, y: 147.5}
+      - {x: 242, y: 193.5}
+      - {x: 210, y: 193.5}
+      - {x: 204, y: 192.5}
+    - - {x: -211, y: 289.5}
+      - {x: -249, y: 253.5}
+      - {x: -249, y: 196.5}
+      - {x: -243, y: 193.5}
+      - {x: -171, y: 193.5}
+      - {x: -170, y: 201.5}
+      - {x: -170, y: 289.5}
+    - - {x: 243, y: 237.5}
+      - {x: 206, y: 289.5}
+      - {x: 170, y: 289.5}
+      - {x: 170, y: 193.5}
+      - {x: 248, y: 193.5}
+      - {x: 249, y: 200.5}
+      - {x: 249, y: 233.5}
+    - - {x: -169, y: 240.5}
+      - {x: -184, y: 227.5}
+      - {x: -184, y: 207.5}
+      - {x: -180, y: 194.5}
+      - {x: -131, y: 194.5}
+      - {x: -127, y: 198.5}
+      - {x: -127, y: 210.5}
+      - {x: -146, y: 240.5}
+    - - {x: -54, y: 242.5}
+      - {x: -57, y: 232.5}
+      - {x: -57, y: 194.5}
+      - {x: 56, y: 194.5}
+      - {x: 57, y: 201.5}
+      - {x: 57, y: 232.5}
+      - {x: 49, y: 242.5}
+    - - {x: 175, y: 239.5}
+      - {x: 170, y: 240.5}
+      - {x: 144, y: 240.5}
+      - {x: 134, y: 221.5}
+      - {x: 127, y: 203.5}
+      - {x: 127, y: 197.5}
+      - {x: 131, y: 194.5}
+      - {x: 182, y: 194.5}
+      - {x: 184, y: 199.5}
+      - {x: 184, y: 224.5}
+      - {x: 183, y: 226.5}
+    - - {x: -114, y: 240.5}
+      - {x: -120, y: 236.5}
+      - {x: -120, y: 197.5}
+      - {x: -118, y: 195.5}
+      - {x: -64, y: 195.5}
+      - {x: -61, y: 199.5}
+      - {x: -61, y: 233.5}
+      - {x: -80, y: 240.5}
+    - - {x: 76, y: 240.5}
+      - {x: 67, y: 228.5}
+      - {x: 61, y: 206.5}
+      - {x: 61, y: 197.5}
+      - {x: 62, y: 195.5}
+      - {x: 119, y: 195.5}
+      - {x: 120, y: 201.5}
+      - {x: 120, y: 235.5}
+      - {x: 105, y: 240.5}
+    - - {x: -13, y: 276.5}
+      - {x: -20, y: 276.5}
+      - {x: -23, y: 271.5}
+      - {x: -23, y: 254.5}
+      - {x: -21, y: 253.5}
+      - {x: -6, y: 253.5}
+      - {x: -4, y: 257.5}
+      - {x: -4, y: 271.5}
+      - {x: -7, y: 274.5}
+    - - {x: 8, y: 276.5}
+      - {x: 4, y: 269.5}
+      - {x: 4, y: 254.5}
+      - {x: 9, y: 253.5}
+      - {x: 22, y: 253.5}
+      - {x: 23, y: 254.5}
+      - {x: 23, y: 272.5}
+      - {x: 22, y: 276.5}
+    - - {x: -95, y: 274.5}
+      - {x: -102, y: 268.5}
+      - {x: -102, y: 256.5}
+      - {x: -95, y: 254.5}
+      - {x: -84, y: 254.5}
+      - {x: -82, y: 259.5}
+      - {x: -82, y: 266.5}
+      - {x: -86, y: 274.5}
+    - - {x: 96, y: 274.5}
+      - {x: 85, y: 274.5}
+      - {x: 82, y: 265.5}
+      - {x: 82, y: 259.5}
+      - {x: 85, y: 254.5}
+      - {x: 94, y: 254.5}
+      - {x: 98, y: 255.5}
+      - {x: 101, y: 259.5}
+      - {x: 102, y: 260.5}
+      - {x: 102, y: 269.5}
+    - - {x: -165, y: 275.5}
+      - {x: -166, y: 274.5}
+      - {x: -166, y: 256.5}
+      - {x: -165, y: 255.5}
+      - {x: -147, y: 255.5}
+      - {x: -146, y: 256.5}
+      - {x: -146, y: 274.5}
+      - {x: -147, y: 275.5}
+    - - {x: 146, y: 275.5}
+      - {x: 146, y: 255.5}
+      - {x: 166, y: 255.5}
+      - {x: 166, y: 275.5}
+    - - {x: -137, y: 274.5}
+      - {x: -141, y: 270.5}
+      - {x: -141, y: 258.5}
+      - {x: -135, y: 256.5}
+      - {x: -127, y: 256.5}
+      - {x: -123, y: 260.5}
+      - {x: -123, y: 272.5}
+      - {x: -129, y: 274.5}
+    - - {x: -115, y: 272.5}
+      - {x: -121, y: 270.5}
+      - {x: -121, y: 257.5}
+      - {x: -119, y: 256.5}
+      - {x: -107, y: 256.5}
+      - {x: -105, y: 260.5}
+      - {x: -105, y: 270.5}
+      - {x: -108, y: 272.5}
+    - - {x: -73, y: 274.5}
+      - {x: -77, y: 272.5}
+      - {x: -77, y: 261.5}
+      - {x: -74, y: 257.5}
+      - {x: -68, y: 256.5}
+      - {x: -60, y: 256.5}
+      - {x: -56, y: 259.5}
+      - {x: -56, y: 272.5}
+      - {x: -57, y: 274.5}
+    - - {x: -35, y: 274.5}
+      - {x: -36, y: 273.5}
+      - {x: -36, y: 256.5}
+      - {x: -30, y: 256.5}
+      - {x: -28, y: 263.5}
+      - {x: -28, y: 269.5}
+      - {x: -33, y: 274.5}
+    - - {x: -4, y: 263.5}
+      - {x: -6, y: 258.5}
+      - {x: -4, y: 256.5}
+      - {x: 5, y: 256.5}
+      - {x: 6, y: 259.5}
+      - {x: 2, y: 264.5}
+      - {x: -1, y: 264.5}
+    - - {x: 30, y: 274.5}
+      - {x: 28, y: 267.5}
+      - {x: 28, y: 261.5}
+      - {x: 33, y: 256.5}
+      - {x: 36, y: 257.5}
+      - {x: 36, y: 272.5}
+      - {x: 34, y: 274.5}
+    - - {x: 60, y: 274.5}
+      - {x: 56, y: 271.5}
+      - {x: 56, y: 262.5}
+      - {x: 59, y: 256.5}
+      - {x: 72, y: 256.5}
+      - {x: 77, y: 260.5}
+      - {x: 77, y: 268.5}
+      - {x: 74, y: 274.5}
+    - - {x: 109, y: 272.5}
+      - {x: 105, y: 268.5}
+      - {x: 105, y: 262.5}
+      - {x: 107, y: 256.5}
+      - {x: 117, y: 256.5}
+      - {x: 121, y: 260.5}
+      - {x: 121, y: 266.5}
+      - {x: 119, y: 272.5}
+    - - {x: 129, y: 274.5}
+      - {x: 123, y: 272.5}
+      - {x: 123, y: 260.5}
+      - {x: 127, y: 256.5}
+      - {x: 135, y: 256.5}
+      - {x: 141, y: 258.5}
+      - {x: 141, y: 270.5}
+      - {x: 137, y: 274.5}
+    - - {x: -37, y: 273.5}
+      - {x: -48, y: 273.5}
+      - {x: -52, y: 271.5}
+      - {x: -52, y: 261.5}
+      - {x: -48, y: 257.5}
+      - {x: -41, y: 257.5}
+      - {x: -38, y: 258.5}
+      - {x: -34, y: 261.5}
+      - {x: -34, y: 270.5}
+    - - {x: 41, y: 273.5}
+      - {x: 38, y: 272.5}
+      - {x: 34, y: 269.5}
+      - {x: 34, y: 260.5}
+      - {x: 37, y: 257.5}
+      - {x: 48, y: 257.5}
+      - {x: 52, y: 259.5}
+      - {x: 52, y: 269.5}
+      - {x: 48, y: 273.5}
+    - - {x: -5, y: 274.5}
+      - {x: -6, y: 271.5}
+      - {x: -2, y: 266.5}
+      - {x: 1, y: 266.5}
+      - {x: 4, y: 267.5}
+      - {x: 6, y: 272.5}
+      - {x: 4, y: 274.5}
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      boss.tatu_1: 1901326538
+      boss.tatu_55: -261828507
+      boss.tatu_92: -1458898638
+      boss.tatu_96: -70911392
+      boss.tatu_79: -439479952
+      boss.tatu_53: -288849331
+      boss.tatu_26: -602415300
+      boss.tatu_7: 1674146761
+      boss.tatu_16: 72887005
+      boss.tatu_57: 1967246036
+      boss.tatu_75: -1543124425
+      boss.tatu_82: -1775176258
+      boss.tatu_87: -178310066
+      boss.tatu_88: -781063641
+      boss.tatu_34: -5633194
+      boss.tatu_52: 567933971
+      boss.tatu_29: 415214325
+      boss.tatu_17: -1771337005
+      boss.tatu_30: 786692462
+      boss.tatu_9: -1253190648
+      boss.tatu_14: 842014501
+      boss.tatu_32: -672066517
+      boss.tatu_45: 755026935
+      boss.tatu_97: -1324283869
+      boss.tatu_47: -1171196275
+      boss.tatu_81: 1111610309
+      boss.tatu_13: -733030349
+      boss.tatu_36: 1110894046
+      boss.tatu_15: 1025688948
+      boss.tatu_90: -477254598
+      boss.tatu_60: 1666887855
+      boss.tatu_70: 643694663
+      boss.tatu_73: 908817260
+      boss.tatu_83: -127040461
+      boss.tatu_49: -1226657781
+      boss.tatu_54: 487196061
+      boss.tatu_31: 888017292
+      boss.tatu_51: 2087761903
+      boss.tatu_27: -453708921
+      boss.tatu_37: -1057448429
+      boss.tatu_61: -625720731
+      boss.tatu_24: 684056556
+      boss.tatu_39: -1231070370
+      boss.tatu_76: 1386491199
+      boss.tatu_94: -2115552640
+      boss.tatu_100: 692443075
+      boss.tatu_35: 46860724
+      boss.tatu_43: 402064329
+      boss.tatu_67: -229839320
+      boss.tatu_33: 1755879876
+      boss.tatu_42: -181170504
+      boss.tatu_44: 1443145062
+      boss.tatu_10: 152881558
+      boss.tatu_85: 1192680830
+      boss.tatu_93: -520973483
+      boss.tatu_91: 1532316006
+      boss.tatu_46: -1227817492
+      boss.tatu_38: -1707164661
+      boss.tatu_95: 1326281123
+      boss.tatu_99: 1314881488
+      boss.tatu_66: -773273821
+      boss.tatu_48: 505905847
+      boss.tatu_5: -2006943872
+      boss.tatu_4: -878251462
+      boss.tatu_62: -2061001086
+      boss.tatu_22: 740028532
+      boss.tatu_56: 1787360463
+      boss.tatu_59: -553390744
+      boss.tatu_68: 1537864525
+      boss.tatu_80: -233723981
+      boss.tatu_86: 1760876805
+      boss.tatu_63: 2074502893
+      boss.tatu_58: 1383663849
+      boss.tatu_84: -1533783870
+      boss.tatu_19: 863382982
+      boss.tatu_74: 332590175
+      boss.tatu_101: -496866287
+      boss.tatu_20: 733691783
+      boss.tatu_77: -468885933
+      boss.tatu_40: 1801889543
+      boss.tatu_3: -1159816131
+      boss.tatu_41: -2131007731
+      boss.tatu_50: 1567272128
+      boss.tatu_11: 1248558211
+      boss.tatu_98: 877311919
+      boss.tatu_8: -1224508150
+      boss.tatu_18: -420620599
+      boss.tatu_72: 268428392
+      boss.tatu_89: 591654652
+      boss.tatu_69: -855184801
+      boss.tatu_64: 1363611955
+      boss.tatu_6: -551296194
+      boss.tatu_0: -860862044
+      boss.tatu_65: 1439519251
+      boss.tatu_25: 724671141
+      boss.tatu_12: -1063113544
+      boss.tatu_2: -1591671981
+      boss.tatu_71: -446056061
+      boss.tatu_21: -1305656091
+      boss.tatu_28: 320734437
+      boss.tatu_78: -2071111657
+      boss.tatu_23: 237971718
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
