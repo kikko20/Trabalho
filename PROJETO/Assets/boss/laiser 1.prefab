@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 3866810024658498996}
   - component: {fileID: 29998169279499603}
   - component: {fileID: 3565889206267012678}
-  - component: {fileID: 428966564376706550}
   - component: {fileID: 8133003143961535469}
   - component: {fileID: -3561582514406200366}
+  - component: {fileID: 7930061595921922199}
   m_Layer: 0
   m_Name: laiser 1
   m_TagString: Untagged
@@ -108,19 +108,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &428966564376706550
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7023739298420513181}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6538a3bd3cb3e9542975fc44db7b96a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  velocidade: 7
 --- !u!61 &8133003143961535469
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -168,3 +155,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &7930061595921922199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7023739298420513181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6538a3bd3cb3e9542975fc44db7b96a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidade: 7
