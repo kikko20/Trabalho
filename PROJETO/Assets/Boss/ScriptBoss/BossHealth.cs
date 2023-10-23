@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -19,7 +20,7 @@ public class BossHealth : MonoBehaviour
 
         if (health <= 200)
         {
-            GetComponent<Animator>().SetBool("IsEnraged", true);
+            GetComponent<Animator>().SetBool("isEnraged", true);
         }
 
         if (health <= 0)
@@ -32,5 +33,13 @@ public class BossHealth : MonoBehaviour
     {
         Instantiate(deathEffect, transform.position, Quaternion.identity);
         Destroy(gameObject);
-    } 
+    }
+
+    private void Update()
+    {
+        if (health <= 200)
+        {
+            GetComponent<Animator>().SetBool("isEnraged", true);
+        } 
+    }
 }
