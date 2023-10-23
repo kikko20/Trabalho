@@ -4,7 +4,7 @@ using TMPro;
 public class ColisaoPlayerBoss : MonoBehaviour
 {
     public TextMeshProUGUI vidaBossText; // Referência ao objeto de texto para exibir a vida do boss
-    public int vidaMaximaBoss = 10; // Vida máxima do boss
+    public int vidaMaximaBoss = 40; // Vida máxima do boss
     private int vidaAtualBoss; // Vida atual do boss
 
     private void Start()

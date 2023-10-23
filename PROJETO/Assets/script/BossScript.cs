@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class BossScript : MonoBehaviour
 {
-    public int vidaInicial = 10; // Variável para a vida inicial do chefe
-    public int vida = 10;
+    public int vidaInicial = 40; // Variável para a vida inicial do chefe
+    public int vida = 40;
     public float velocidade = 3f;
     private int direcao = 1; // 1 representa direção para a direita, -1 para a esquerda
     private bool virarSprite = false;
