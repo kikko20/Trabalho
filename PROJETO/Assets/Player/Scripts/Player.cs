@@ -4,6 +4,13 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public GameObject balaProjetil;
+    public Transform arma;
+    private bool tiro;
+    public float forcaDoTiro;
+    private bool flipX;
+
+
     public Rigidbody2D rb;
     public int moveSpeed;
     private float direction;
@@ -40,6 +47,9 @@ public class Player : MonoBehaviour
             animator.SetBool("taCorrendo", false);
         }
 
+        tiro = Input.GetButtonDown("Fire1");
+        Atirar();
+
             taNoChao = Physics2D.OverlapCircle(detectarChao.position, 0.2f, oQueEhChao);
 
         if (Input.GetButtonDown("Jump") && taNoChao == true)
@@ -63,16 +73,38 @@ public class Player : MonoBehaviour
         
         direction = Input.GetAxis("Horizontal");
 
-        if (direction > 0)
+        if ( flipX == true && direction > 0)
         {
-            transform.localScale = facingRight;
+            Flip();
+            //transform.localScale = facingRight;
         }
 
-        if (direction < 0)
+        if (flipX == false && direction < 0)
         {
-            transform.localScale = facingLeft;
+            Flip();
+            //transform.localScale = facingLeft;
         }
         
         rb.velocity = new Vector2(direction * moveSpeed, rb.velocity.y);
+    }
+
+    private void Atirar()
+    {
+        if (tiro == true)
+        {
+            GameObject temp = Instantiate(balaProjetil);
+            temp.transform.position = arma.position;
+            temp.GetComponent<Rigidbody2D>().velocity = new Vector2(forcaDoTiro, 0);
+            Destroy(temp.gameObject, 3f);
+        }
+    }
+
+    private void Flip()
+    {
+        flipX = !flipX;
+        float x = transform.localScale.x;
+        x *= -1;
+        transform.localScale = new Vector3(x, transform.localScale.y, transform.localScale.z);
+        forcaDoTiro *= -1;
     }
 }
