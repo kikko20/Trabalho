@@ -8,17 +8,29 @@ public class BossScript : MonoBehaviour
     private int direcao = 1; // 1 representa direção para a direita, -1 para a esquerda
     private bool virarSprite = false;
     private bool girando = false; // Variável para ativar a animação "girando"
+    private Animator animator; // Referência para o componente Animator
 
-    void Update()
+    private void Start()
     {
-        if (vida <= (vidaInicial / 2)) // Verifique se a vida do chefe está a 50% ou menos
+        animator = GetComponent<Animator>();
+    }
+
+    private void Update()
+    {
+        if (vida <= 20 && vida >= 1) // Verifica se a vida do chefe está entre metade (20) e 1.
         {
             Movimento();
             GirarAnimacao();
         }
+        if (vida <= 0)
+        {
+            girando = false;
+            animator.SetBool("Girando", false); // Desativa a animação "Girando" quando a vida for zero
+            // Você pode adicionar qualquer outra lógica que desejar aqui quando o chefe for derrotado.
+        }
     }
 
-    void Movimento()
+    private void Movimento()
     {
         if (virarSprite)
         {
@@ -33,17 +45,17 @@ public class BossScript : MonoBehaviour
         transform.Translate(Vector3.right * direcao * velocidade * Time.deltaTime);
     }
 
-    void GirarAnimacao()
+    private void GirarAnimacao()
     {
         // Ativar a animação "girando" definindo a variável de animação no Animator
         if (!girando)
         {
             girando = true;
-            GetComponent<Animator>().SetBool("Girando", true);
+            animator.SetBool("Girando", true);
         }
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Parede"))
         {

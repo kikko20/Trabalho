@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 62475369671294567}
   m_Layer: 0
   m_Name: laiserdoboss
-  m_TagString: Untagged
+  m_TagString: Bala
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
