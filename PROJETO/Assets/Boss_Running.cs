@@ -6,6 +6,7 @@ public class Boss_Running : StateMachineBehaviour
 {
     public float speed = 2.5f;
     public float attackRange = 3f;
+    public static bool isAtk;
 
 
 
@@ -25,13 +26,14 @@ public class Boss_Running : StateMachineBehaviour
 
         boss.LookAtPlayer();
 
-        Vector2 target = new Vector2(player.position.x, rig.position.x);
+        Vector2 target = new Vector2(player.position.x, rig.position.y);
         Vector2 newPos = Vector2.MoveTowards(rig.position, target, speed * Time.fixedDeltaTime);
         rig.MovePosition(newPos);
 
       if (Vector2.Distance(player.position, rig.position) <= attackRange)
         {
             animator.SetTrigger("Attack");
+            isAtk = true;
         }
     }
 
