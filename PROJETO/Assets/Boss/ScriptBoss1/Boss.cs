@@ -33,5 +33,13 @@ public class Boss : MonoBehaviour
             transform.Rotate(0f, 180f, 0f);
             isFlipped = true;
         }
-    } 
+    }
+
+    private void OntriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.CompareTag("bala"))
+        {
+            
+        }
+    }
 }

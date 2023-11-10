@@ -6,11 +6,13 @@ TagManager:
   tags:
   - Inimigo
   - Inimigo1
+  - Bala
+  - bala
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - "ch\xE3o"
   - Water
   - UI
   - 
