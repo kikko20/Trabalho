@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Boss : MonoBehaviour
@@ -35,11 +36,5 @@ public class Boss : MonoBehaviour
         }
     }
 
-    private void OntriggerEnter2D(Collider2D col)
-    {
-        if (col.gameObject.CompareTag("bala"))
-        {
-            
-        }
-    }
+    
 }

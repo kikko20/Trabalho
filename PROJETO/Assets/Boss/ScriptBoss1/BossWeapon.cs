@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class BossWeapon : MonoBehaviour
 {
-    public int attackDamage = 20;
-    public int enragedAttackDamage = 40;
-
+    public int attackDamage = 10;
+    public int enragedAttackDamage = 20;
+    
     public Vector3 attackOffset;
     public float attackRange = 1f;
     public LayerMask attackMask;
@@ -18,9 +18,9 @@ public class BossWeapon : MonoBehaviour
         pos += transform.up * attackOffset.y;
 
         Collider2D colInfo = Physics2D.OverlapCircle(pos, attackRange, attackMask);
-        if (colInfo != null)
+        if (colInfo.gameObject.CompareTag("Player"))
         {
-            colInfo.GetComponent<PlayerHealth>().TakeDamage(enragedAttackDamage);
+            colInfo.GetComponent<PlayerHealth>().TakeDamage(attackDamage);
         }
     }
 
@@ -31,7 +31,7 @@ public class BossWeapon : MonoBehaviour
         pos += transform.up * attackOffset.y;
 
         Collider2D colInfo = Physics2D.OverlapCircle(pos, attackRange, attackMask);
-        if (colInfo != null)
+        if (colInfo.gameObject.CompareTag("Player"))
         {
             colInfo.GetComponent<PlayerHealth>().TakeDamage(enragedAttackDamage);
         }

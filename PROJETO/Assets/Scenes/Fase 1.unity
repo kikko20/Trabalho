@@ -220,7 +220,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: c07437f242ba5414086700a3d97a0f99, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.646
+  m_Volume: 0.501
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -601,6 +601,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+  Boss1Dmg: 10
   deathEffect: {fileID: 0}
 --- !u!1 &428218286
 GameObject:
@@ -897,7 +898,7 @@ GameObject:
   - component: {fileID: 1315476575}
   m_Layer: 0
   m_Name: Boss
-  m_TagString: Untagged
+  m_TagString: Boss 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1004,6 +1005,7 @@ MonoBehaviour:
   health: 500
   deathEffect: {fileID: 0}
   isInvulnerable: 0
+  balaPlayerDmg: 20
 --- !u!114 &1315476571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1016,8 +1018,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 186cc74ac01e5bd40be99527d7f0d0db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackDamage: 20
-  enragedAttackDamage: 40
+  attackDamage: 10
+  enragedAttackDamage: 20
   attackOffset: {x: -1.17, y: -0.17, z: 0}
   attackRange: 1
   attackMask:

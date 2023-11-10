@@ -11,6 +11,8 @@ public class BossHealth : MonoBehaviour
 
     public bool isInvulnerable = false;
 
+    public int balaPlayerDmg = 20;
+
     public void TakeDamage(int damage)
     {
         if (isInvulnerable)
@@ -31,7 +33,6 @@ public class BossHealth : MonoBehaviour
 
     void Die()
     {
-        Instantiate(deathEffect, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
 
@@ -41,5 +42,13 @@ public class BossHealth : MonoBehaviour
         {
             GetComponent<Animator>().SetBool("isEnraged", true);
         } 
+    }
+    
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.CompareTag("bala"))
+        {
+            TakeDamage(balaPlayerDmg);
+        }
     }
 }

@@ -107,4 +107,5 @@ public class Player : MonoBehaviour
         transform.localScale = new Vector3(x, transform.localScale.y, transform.localScale.z);
         forcaDoTiro *= -1;
     }
+    
 }

@@ -6,14 +6,17 @@ using UnityEngine.SceneManagement;
 public class PlayerHealth : MonoBehaviour
 {
    public int health = 100;
+
+   public int Boss1Dmg;
    
    	public GameObject deathEffect;
    
+    
    	public void TakeDamage(int damage)
    	{
    		health -= damage;
    
-   		StartCoroutine(DamageAnimation());
+   		//StartCoroutine(DamageAnimation());
    
    		if (health <= 0)
    		{
@@ -51,5 +54,14 @@ public class PlayerHealth : MonoBehaviour
    			yield return new WaitForSeconds(.1f);
    		}
    	}
+    
+    /*private void OnCollisionEnter2D(Collision2D col)
+    {
+	    if (col.gameObject.layer == 6)
+	    {
+		    TakeDamage(Boss1Dmg);
+		    Debug.Log("tomei dano");
+	    }
+    }*/
    
    } 
