@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class Boss_Running : StateMachineBehaviour
 {
-    public float speed = 2.5f;
+    public float speed = 3f;
     public float attackRange = 3f;
     public static bool isAtk;
     
     [SerializeField] private AudioSource walkSound;
-
     [SerializeField] private AudioSource ataqSom;
 
     Transform player;

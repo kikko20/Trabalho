@@ -6,7 +6,7 @@ public class Vida : MonoBehaviour
 {
     private int vidaAtual;
 
-    private int vidaTotal = 500;
+    private int vidaTotal = 600;
 
     [SerializeField] private BarraDeVida barraDeVida;
     // Start is called before the first frame update
@@ -22,7 +22,7 @@ public class Vida : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1"))
         {
-            AplicarDano(5);
+            AplicarDano(10);
         }
     }
 
