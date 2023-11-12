@@ -10,6 +10,8 @@ public class Boss_Running : StateMachineBehaviour
     
     [SerializeField] private AudioSource walkSound;
 
+    [SerializeField] private AudioSource ataqSom;
+
     Transform player;
     Rigidbody2D rig;
     BossYas boss;
@@ -20,6 +22,8 @@ public class Boss_Running : StateMachineBehaviour
         rig = animator.GetComponent<Rigidbody2D>();
         boss = animator.GetComponent<BossYas>();
         walkSound = boss.walkSound;
+        ataqSom = boss.ataqSom;
+
 
     }
 
@@ -36,10 +40,13 @@ public class Boss_Running : StateMachineBehaviour
             walkSound.Play(); 
         }
 
+        
+
       if (Vector2.Distance(player.position, rig.position) <= attackRange)
         {
             animator.SetTrigger("Attack");
             isAtk = true;
+
         }
     }
 
@@ -47,5 +54,6 @@ public class Boss_Running : StateMachineBehaviour
     {
         animator.ResetTrigger("Attack");
         walkSound.Stop();
+        ataqSom.Play();
     }
 }

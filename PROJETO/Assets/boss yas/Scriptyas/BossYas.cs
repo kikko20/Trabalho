@@ -11,6 +11,7 @@ public class BossYas : MonoBehaviour
     private bool atk;
     
     [SerializeField] public AudioSource walkSound;
+    [SerializeField] public AudioSource ataqSom;
     
     void Start()
     {
@@ -25,7 +26,7 @@ public class BossYas : MonoBehaviour
     public void LookAtPlayer()
     {
         Vector3 flipped = transform.localScale;
-        flipped.z *= 1f;
+        flipped.z *= -1f;
 
         if(transform.position.x > player.position.x && isFlipped)
         {
