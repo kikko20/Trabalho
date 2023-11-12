@@ -582,7 +582,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 1157286157, guid: fb4959d3a3c085340ad3d0946a10d981, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -601,8 +601,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 625516790}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.14, y: -1.9, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: -1.72, z: 0}
   m_LocalScale: {x: 3.342292, y: 3.342292, z: 3.342292}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -668,6 +668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6308618ecba6943479f1632b8f22e2ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Player: {fileID: 1303041177}
   player: {fileID: 1923770588}
   isFlipped: 1
   walkSound: {fileID: 625516797}
@@ -787,6 +788,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 900948822, guid: c1a70b18b3717cc4880572ece109314c, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6190010538552109490, guid: c1a70b18b3717cc4880572ece109314c, type: 3}
       propertyPath: oQueEhChao.m_Bits
       value: 264
@@ -825,7 +830,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6190010538552109494, guid: c1a70b18b3717cc4880572ece109314c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 4.38
       objectReference: {fileID: 0}
     - target: {fileID: 6190010538552109494, guid: c1a70b18b3717cc4880572ece109314c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1766,6 +1771,11 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+--- !u!1 &1303041177 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6190010538552109491, guid: c1a70b18b3717cc4880572ece109314c, type: 3}
+  m_PrefabInstance: {fileID: 854439464}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1375316675
 GameObject:
   m_ObjectHideFlags: 0

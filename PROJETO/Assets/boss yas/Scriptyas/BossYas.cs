@@ -5,11 +5,20 @@ using UnityEngine;
 
 public class BossYas : MonoBehaviour
 {
+    public GameObject Player;
     public Transform player;
     public bool isFlipped = false;
     private bool atk;
     
     [SerializeField] public AudioSource walkSound;
+    
+    void Start()
+    {
+        if (Player != null)
+        {
+            Physics2D.IgnoreCollision(GetComponent<Collider2D>(), Player.GetComponent<Collider2D>());
+        }
+    }
 
 
 

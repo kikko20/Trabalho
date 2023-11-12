@@ -10,11 +10,10 @@ public class Boss_Running : StateMachineBehaviour
     
     [SerializeField] private AudioSource walkSound;
 
-
-
     Transform player;
     Rigidbody2D rig;
     BossYas boss;
+    
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
