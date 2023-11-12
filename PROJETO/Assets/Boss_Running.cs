@@ -7,6 +7,8 @@ public class Boss_Running : StateMachineBehaviour
     public float speed = 2.5f;
     public float attackRange = 3f;
     public static bool isAtk;
+    
+    [SerializeField] private AudioSource walkSound;
 
 
 
@@ -18,6 +20,7 @@ public class Boss_Running : StateMachineBehaviour
         player = GameObject.FindGameObjectWithTag("Player").transform;
         rig = animator.GetComponent<Rigidbody2D>();
         boss = animator.GetComponent<BossYas>();
+        walkSound = boss.walkSound;
 
     }
 
@@ -29,6 +32,10 @@ public class Boss_Running : StateMachineBehaviour
         Vector2 target = new Vector2(player.position.x, rig.position.y);
         Vector2 newPos = Vector2.MoveTowards(rig.position, target, speed * Time.fixedDeltaTime);
         rig.MovePosition(newPos);
+        if (!walkSound.isPlaying)
+        {
+            walkSound.Play(); 
+        }
 
       if (Vector2.Distance(player.position, rig.position) <= attackRange)
         {
@@ -40,5 +47,6 @@ public class Boss_Running : StateMachineBehaviour
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         animator.ResetTrigger("Attack");
+        walkSound.Stop();
     }
 }
