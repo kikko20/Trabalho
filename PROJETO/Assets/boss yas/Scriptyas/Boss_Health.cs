@@ -23,15 +23,6 @@ public class Boss_Health : MonoBehaviour
     {
        Destroy(gameObject, 0.5f);
     }
-
-
-    private void OnTriggerEnter2D(Collider2D col)
-    {
-        if (col.gameObject.CompareTag("bala"))
-        {
-            TakeDamage(balaPlayerDmg);
-        }
-    }
 }
 
     
