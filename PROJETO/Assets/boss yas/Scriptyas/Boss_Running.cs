@@ -10,6 +10,7 @@ public class Boss_Running : StateMachineBehaviour
     
     [SerializeField] private AudioSource walkSound;
     [SerializeField] private AudioSource ataqSom;
+   
 
     Transform player;
     Rigidbody2D rig;
@@ -22,6 +23,9 @@ public class Boss_Running : StateMachineBehaviour
         boss = animator.GetComponent<BossYas>();
         walkSound = boss.walkSound;
         ataqSom = boss.ataqSom;
+        
+        
+
 
 
     }

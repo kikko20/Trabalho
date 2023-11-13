@@ -4,18 +4,28 @@ using UnityEngine;
 
 public class Boss_Health : MonoBehaviour
 {
+    
     public int vidaAtual;
     public int vidaTotal = 600;
 
-    public int balaPlayerDmg = 10;
+    public int balaPlayerDmg = 30;
+    
+    
     
     [SerializeField] private BarraDeVida barraDeVida;
+    [SerializeField] private Animator animator;
+    
+    [SerializeField] private AudioSource DeathSong;
+    
+    private bool isDead = false;
+    BossYas boss;
     
     void Start()
     {
         vidaAtual = vidaTotal;
-        
         barraDeVida.AlterarBarraDeVida(vidaAtual, vidaTotal);
+        
+        animator = GetComponent<Animator>();
     }
 
 
@@ -34,7 +44,11 @@ public class Boss_Health : MonoBehaviour
 
     void Die()
     {
-        Destroy(gameObject, 0.5f);
+        isDead = true;
+        animator.SetTrigger("Die");
+        DeathSong.Play();
+
+        Destroy(gameObject, 1f);
     }
 }
 

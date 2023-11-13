@@ -12,6 +12,7 @@ public class BossYas : MonoBehaviour
     
     [SerializeField] public AudioSource walkSound;
     [SerializeField] public AudioSource ataqSom;
+    [SerializeField] public AudioSource DeathSong;
     
     void Start()
     {

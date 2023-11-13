@@ -10,7 +10,7 @@ public class bala : MonoBehaviour
             if (col.gameObject.CompareTag("Boss"))
             {
 
-                col.GetComponent<Boss_Health>().AplicarDano(10);
+                col.GetComponent<Boss_Health>().AplicarDano(30);
                 
                 Destroy(gameObject);
             }
