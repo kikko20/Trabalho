@@ -20,15 +20,12 @@ public class Vida : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
-        {
-            AplicarDano(10);
-        }
+        
     }
 
-    private void AplicarDano(int dano)
+    public void AplicarDano(int dano)
     {
-        vidaAtual -= 10;
+        vidaAtual -= dano;
         
         barraDeVida.AlterarBarraDeVida(vidaAtual, vidaTotal);
     }

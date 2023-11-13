@@ -9,9 +9,9 @@ public class Boss_Health : MonoBehaviour
     public int balaPlayerDmg = 10;
     
 
-    public void TakeDamage(int damage)
+    public void AplicarDano(int dano)
     {
-        health -= damage;
+        health -= balaPlayerDmg;
 
         if (health <= 0)
         {

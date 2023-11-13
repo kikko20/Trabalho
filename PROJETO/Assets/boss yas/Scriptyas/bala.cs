@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class bala : MonoBehaviour
 {
-    public int damage = 10;
+    public int dano = 10;
     
         private void OnTriggerEnter2D(Collider2D col)
         {
             if (col.gameObject.CompareTag("Boss"))
             {
-                
-                col.GetComponent<Boss_Health>().TakeDamage(damage);
+
+                col.GetComponent<Vida>().AplicarDano(10);
                 
                 Destroy(gameObject);
             }
