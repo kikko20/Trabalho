@@ -4,24 +4,37 @@ using UnityEngine;
 
 public class Boss_Health : MonoBehaviour
 {
-    public int health = 600;
+    public int vidaAtual;
+    public int vidaTotal = 600;
 
     public int balaPlayerDmg = 10;
     
+    [SerializeField] private BarraDeVida barraDeVida;
+    
+    void Start()
+    {
+        vidaAtual = vidaTotal;
+        
+        barraDeVida.AlterarBarraDeVida(vidaAtual, vidaTotal);
+    }
+
 
     public void AplicarDano(int dano)
     {
-        health -= balaPlayerDmg;
+        vidaAtual -= dano;
+        barraDeVida.AlterarBarraDeVida(vidaAtual, vidaTotal);
 
-        if (health <= 0)
+        if (vidaAtual <= 0)
         {
             Die();
         }
     }
+    
+    
 
     void Die()
     {
-       Destroy(gameObject, 0.5f);
+        Destroy(gameObject, 0.5f);
     }
 }
 

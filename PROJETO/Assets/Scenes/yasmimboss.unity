@@ -783,6 +783,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5432b3f3f74ced44b05f4c2ce38660f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  vidaAtual: 0
+  vidaTotal: 600
   barraDeVida: {fileID: 1559174591}
 --- !u!82 &625516799
 AudioSource:
@@ -892,8 +894,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2fe44caaa5389d4292cde9f72ea9c95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 600
+  vidaAtual: 0
+  vidaTotal: 600
   balaPlayerDmg: 10
+  barraDeVida: {fileID: 1559174591}
 --- !u!1001 &854439464
 PrefabInstance:
   m_ObjectHideFlags: 0
